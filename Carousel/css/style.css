@@ -176,25 +176,22 @@ p.bgp span {
 
 .carousel_bg {
 	width: 100%;
-	height: auto;
+	height: 262px;
 	background: #a6a7a1;
 	box-shadow: inset 0px 2px 5px #444;
     -webkit-box-shadow: inset 0px 2px 5px #444;
     margin-bottom: 200px;
-    position: relative;
+    margin-top: 100px;
 }
 
 .jcarousel-wrapper {
     position: relative;
-    overflow: hidden;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     max-width: 1260px;
-    min-width: 400px;
     margin: 0 auto;
     padding-top: 15px;
-    padding-bottom: 25px;
 }
 
 
@@ -202,7 +199,6 @@ p.bgp span {
     position: relative;
     overflow: hidden;
     max-width: 1138px;
-    min-width: 400px;
     /*height: 228px;*/
     margin: 0 auto;
 }
@@ -216,10 +212,10 @@ p.bgp span {
 }
 
 .jcarousel li {
-    width: auto !important;
+    /*width: 272px !important;
+    height: 222px;*/
+    width: 100%  !important;
     height: auto;
-    /*width: 272px !important;*/
-    /*height: 222px;*/
     float: left;
     margin: 7px;
     border: 5px solid #CACACA;
@@ -228,14 +224,13 @@ p.bgp span {
     box-sizing: border-box;
     text-align: center;
     cursor: pointer;
-    position: relative;
 }
 
-/*.jcarousel img {
+.jcarousel img {
     display: block;
     max-width: 100%;
     height: auto !important;
-}*/
+}
 
 /** Carousel Controls **/
 
