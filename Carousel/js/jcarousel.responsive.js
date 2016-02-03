@@ -7,13 +7,16 @@
                 var carousel = $(this),
                     width = carousel.innerWidth();
 
-                if (width >= 600) {
+                if (width >= 962) {
+                    width = width / 4.2;
+                } else if (width >= 677) {
                     width = width / 3;
                 } else if (width >= 350) {
                     width = width / 2;
                 }
 
                 carousel.jcarousel('items').css('width', Math.ceil(width) + 'px');
+                $('.slide_content').css('width', Math.ceil(width-10) + 'px');
             })
             .jcarousel({
                 wrap: 'circular'
