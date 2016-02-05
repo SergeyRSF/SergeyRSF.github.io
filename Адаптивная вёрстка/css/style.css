@@ -34,12 +34,20 @@ ul {
 	width: 140px;
 	height: 100px;
 	background: grey center no-repeat;
+	/*float: left;*/
+	position: relative;
+	float: left;
 }
 
 .slogan {
-	position: absolute;
+	/*position: absolute;
 	top: 17px;
-	left: 170px;
+	left: 170px;*/
+	float: left;
+	top: 20px;
+	position: relative;
+
+
 }
 
 .title {
@@ -54,10 +62,12 @@ ul {
 
 .phone {
 	font-size: 25px;
-	position: absolute;
+	/*position: absolute;
 	top: 17px;
-	right: 30px;
-
+	right: 30px;*/
+	float: right;
+	position: absolute;
+	right: 0;
 }
 
 .menu {
@@ -122,6 +132,19 @@ aside {
 
 
 @media screen and (max-width: 1024px) {
+
+	/*.header {
+		text-align: center;
+	}*/
+
+	.slogan {
+		z-index: 1;
+	}
+
+	.phone {
+		/*float: left;*/
+		z-index: 999999999;
+	}
 
 	nav ul {
 		text-align: center;
