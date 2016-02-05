@@ -1,0 +1,158 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+div {
+	
+}
+
+ul {
+	list-style-type: none;
+}
+
+.line {
+	width: 100%;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0 20px;
+	overflow: hidden;
+	position: relative;
+}
+
+.header {
+	height: 140px;
+	background: #0776A0;
+	color: #fff;
+}
+
+.logo {
+	width: 140px;
+	height: 100px;
+	background: grey center no-repeat;
+}
+
+.slogan {
+	position: absolute;
+	top: 17px;
+	left: 170px;
+}
+
+.title {
+	font-size: 30px;
+	padding: 10px 0;
+}
+
+.subtitle {
+	font-size: 16px;
+	padding: 10px 0;
+}
+
+.phone {
+	font-size: 25px;
+	position: absolute;
+	top: 17px;
+	right: 30px;
+
+}
+
+.menu {
+	height: 50px;
+}
+
+nav a {
+	
+}
+
+nav ul {
+	
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 20px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.content {
+	min-height: 650px;
+	background: #fff;
+	padding-top: 25px;
+}
+
+.stars {
+	margin: 10px 0;
+}
+
+.item {
+	width: 200px;
+	height: 200px;
+	background: #ececec center no-repeat;
+	float: left;
+	margin: 10px 20px;
+	text-align: center;
+
+}
+
+aside {
+	width: 20%;
+	float: left;
+	margin-right: 20px;
+}
+
+.right {
+	overflow: hidden;
+}
+
+.footer {
+	height: 50px;
+	background: #024C68;
+}
+
+
+.footer span {
+	color: #fff;
+	line-height: 50px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+	nav ul {
+		text-align: center;
+	}
+
+	.content .stars {
+		width: 480px;
+		margin: 10px auto;
+	}
+
+	aside {
+		float: none;
+		max-width: 500px;
+		min-width: 340px;
+		margin: 0 auto;
+	}
+
+	.col.fl-l {
+		float: left;
+	}
+
+	.col.fl-r {
+		float: right;
+	}
+
+	.right {
+		padding: 10px;
+	}
+
+	.footer {
+		text-align: center;
+	}
+}
+
