@@ -8,7 +8,20 @@
 	src: url(../fonts/Raleway-Regular.ttf);
 }
 
+@font-face {
+	font-family: Raleway Extra;
+	src: url(../fonts/Raleway-ExtraBold.ttf);
+}
 
+@font-face {
+	font-family: Raleway Semibold;
+	src: url(../fonts/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: Raleway Medium;
+	src: url(../fonts/Raleway-Medium.ttf);
+}
 
 * {
 	margin: 0;
@@ -50,6 +63,10 @@ body {
 	cursor: pointer;
 }
 
+.menu:hover {
+	opacity: 0.6;
+}
+
 .photo_container {
 	padding-top: 135px;
 }
@@ -70,7 +87,7 @@ body {
 	text-align: center;
 }
 
-h1.name {
+h2.name {
 	font: 44px Taiga;
 	color: #fff;
 }
@@ -90,17 +107,120 @@ button.me {
 	margin: 25px 10px 0px 10px;
 }
 
+button.me:hover {
+	opacity: 0.6;
+}
+
 p.button_p {
 	font: 24px Raleway;
 	color: #ecf0f1;
 }
+
+@media screen and (max-width: 1010px) {
+	.menu {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.photo_container {
+		padding-top: 28px;
+	}
+
+	.header {
+		padding-top: 60px;
+	}
+}
+
+
 
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
 }
 
+.about {
+	min-height: 680px;
+}
 
+.about_me {
+	width: 220px;
+	height: 65px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 65px;
+}
+
+h1.title {
+	font: 40px Raleway Extra;
+	color: #595959;
+}
+
+.title_line {
+	width: 118px;
+	height: 9px;
+	background-color: #88ccd8;
+	margin: 0 auto;
+}
+
+.profile {
+	padding-top: 80px;
+	height: auto;
+}
+
+.profile_text {
+	max-width: 560px;
+	max-height: 345px;
+	float: left;
+}
+
+h3.bruno {
+	font: 24px/18px Raleway Extra;
+	color: #595959;
+	text-transform: uppercase;
+}
+
+p.design {
+	font: 24px/68px Raleway Semibold;
+	text-transform: uppercase;
+	color: #595959;
+}
+
+p.lore {
+	font: 16px/30px Raleway Medium;
+	color: #7c7c7c;
+	text-transform: uppercase;
+	max-width: 530px;
+}
+
+.video {
+	width: 462px;
+	height: 230px;
+	float: right;
+	background-image: url("../img/owner_two.png");
+	padding-top: 116px;
+}
+
+.play {
+	margin: 0 auto;
+	width: 113px;
+	height: 113px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1010px) {
+	.profile_text {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.video {
+		float: none;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+}
 
 
 /* Footer
