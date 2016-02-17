@@ -49,8 +49,10 @@ body {
 /* Header
 -----------------------------------------------------------------------------*/
 .header {
+	width: 100%;
 	min-height: 830px;
-	background-image: url("../img/main.png");
+	background: url(../img/main.png) no-repeat;
+	background-size: 100%;
 }
 
 .menu {
@@ -116,7 +118,7 @@ p.button_p {
 	color: #ecf0f1;
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 650px) {
 	.menu {
 		float: none;
 		margin: 0 auto;
@@ -207,7 +209,7 @@ p.lore {
 	cursor: pointer;
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 650px) {
 	.profile_text {
 		float: none;
 		margin: 0 auto;
