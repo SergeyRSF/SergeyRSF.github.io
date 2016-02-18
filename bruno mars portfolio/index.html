@@ -8,13 +8,47 @@
 	<meta name="description" content="" />
 	<meta name="viewport" content="width=device-width" />
 	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				'verticalCentered': false,
+				'css3': true,
+				'sectionsColor': ['#F0F2F4', '#fff', '#fff', '#fff'],
+				'navigationTooltips': ['fullPage.js', 'Powerful', 'Amazing', 'Simple'],
+
+				'afterLoad': function(anchorLink, index){
+					if(index == 2){
+						$('#iphone3, #iphone2, #iphone4').addClass('active');
+					}
+				},
+
+				'onLeave': function(index, nextIndex, direction){
+					if (index == 3 && direction == 'down'){
+						$('.section').eq(index -1).removeClass('moveDown').addClass('moveUp');
+					}
+					else if(index == 3 && direction == 'up'){
+						$('.section').eq(index -1).removeClass('moveUp').addClass('moveDown');
+					}
+
+					$('#staticImg').toggleClass('active', (index == 2 && direction == 'down' ) || (index == 4 && direction == 'up'));
+					$('#staticImg').toggleClass('moveDown', nextIndex == 4);
+					$('#staticImg').toggleClass('moveUp', index == 4 && direction == 'up');
+				}
+			});
+		});
+	</script>
 </head>
 
 <body>
 
 <!--<div id="wrapper">-->
-
-	<header class="header">
+<div id="fullpage">
+	<div class="section " id="section0">
+		<header class="header">
 		<div class="wrapper">
 			<div class="menu">
 				
@@ -40,8 +74,8 @@
 			</div>
 		</div>
 	</header><!-- .header-->
-
-	<main class="content">
+	</div><!--section0-->
+	<div class="section " id="section1">
 		<div class="wrapper">
 			<div class="about">
 				<div class="about_me">
@@ -63,13 +97,20 @@
 			</div>
 			<div style="clear:both"></div>
 		</div>
-	</main><!-- .content -->
-
-	<footer class="footer">
+	</div><!--section1-->
+	<div class="section moveDown" id="section2">
+		<footer class="footer">
 		<div class="wrapper">
 		<strong>Footer:</strong> Mus elit Morbi mus enim lacus at quis Nam eget morbi. Et semper urna urna non at cursus dolor vestibulum neque enim. Tellus interdum at laoreet laoreet lacinia lacinia sed Quisque justo quis. Hendrerit scelerisque lorem elit orci tempor tincidunt enim Phasellus dignissim tincidunt. Nunc vel et Sed nisl Vestibulum odio montes Aliquam volutpat pellentesque. Ut pede sagittis et quis nunc gravida porttitor ligula.
 		</div>
 	</footer><!-- .footer -->
+	</div><!--section2-->
+</div><!--fullpage-->
+	<!--<main class="content">-->
+		
+	<!--</main>--><!-- .content -->
+
+	
 
 <!--</div>--><!-- #wrapper -->
 
