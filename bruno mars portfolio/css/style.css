@@ -80,7 +80,7 @@ body {
 }
 
 .head_container {
-	
+
 }
 
 .menu {
@@ -236,9 +236,8 @@ p.lore {
 }
 
 .video {
-	/*width: 462px;
-	height: 230px;*/
-	width: auto;
+	width: 462px;
+	height: 230px;
 	float: right;
 	background-image: url("../img/owner_two.png");
 	background-size: 100%;
