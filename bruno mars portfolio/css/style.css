@@ -49,8 +49,8 @@ body {
 -----------------------------------------------------------------------------*/
 
 .section{
-	text-align:center;
 	overflow:hidden;
+	height: 100%;
 }
 
 
@@ -58,7 +58,7 @@ body {
 -----------------------------------------------------------------------------*/
 .header {
 	width: 100%;
-	min-height: 830px;
+	height: 830px;
 	background: url(../img/main.png) no-repeat;
 	background-size: 100%;
 }
@@ -150,14 +150,18 @@ p.button_p {
 
 .about {
 	min-height: 680px;
+	max-width: 1180px;
+	min-width: 400px;
+	overflow: hidden;
+	position: relative;
 }
 
 .about_me {
 	width: 220px;
 	height: 65px;
-	text-align: center;
 	margin: 0 auto;
 	padding-top: 65px;
+	text-align: center;
 }
 
 h1.title {
@@ -179,8 +183,10 @@ h1.title {
 
 .profile_text {
 	max-width: 560px;
-	max-height: 345px;
 	float: left;
+	margin-left: 30px;
+	position: relative;
+	display: inline-block;
 }
 
 h3.bruno {
@@ -203,11 +209,16 @@ p.lore {
 }
 
 .video {
-	width: 462px;
-	height: 230px;
+	/*width: 462px;
+	height: 230px;*/
+	width: auto;
 	float: right;
 	background-image: url("../img/owner_two.png");
+	background-size: 100%;
 	padding-top: 116px;
+	margin-right: 30px;
+	position: relative;
+	display: inline-block;
 }
 
 .play {

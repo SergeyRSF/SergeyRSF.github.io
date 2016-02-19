@@ -13,6 +13,18 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
 	<script type="text/javascript">
+	$(document).ready(
+    function(){
+        $(window).resize(function(){
+            var height = $(window).height();
+            $('.header').css({
+                'height':height
+            });
+        }).resize();
+    }
+);
+	</script>
+	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				'verticalCentered': false,
