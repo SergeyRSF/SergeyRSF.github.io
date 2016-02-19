@@ -17,7 +17,7 @@
     function(){
         $(window).resize(function(){
             var height = $(window).height();
-            $('.header').css({
+            $('.background').css({
                 'height':height
             });
         }).resize();
@@ -29,6 +29,8 @@
 			$('#fullpage').fullpage({
 				'verticalCentered': false,
 				'css3': true,
+				'navigation': true,
+				'navigationPosition': 'right',
 
 				'onLeave': function(index, nextIndex, direction){
 					if (index == 3 && direction == 'down'){
@@ -50,28 +52,33 @@
 	<div class="section " id="section0">
 		<header class="header">
 		<div class="wrapper">
-			<div class="menu">
-				
-			</div>
-			<div class="photo_container">
-				<div class="photo">
-					<img class="face" src="img/owner.png"></img>
+			<div class="head_container">
+				<div class="menu">
+					
+				</div>
+				<div class="photo_container">
+					<div class="photo">
+						<img class="face" src="img/owner.png"></img>
+					</div>
+				</div>
+				<div class="owner">
+					<h2 class="name">
+						Bruno Mars
+					</h1>
+					<p class="info">
+						Love to Design and capture Photographs :)
+					</p>
+					<button class="me">
+						<p class="button_p">Hire Me</p>
+					</button>
+					<button class="me">
+						<p class="button_p">Follow Me</p>
+					</button>
 				</div>
 			</div>
-			<div class="owner">
-				<h2 class="name">
-					Bruno Mars
-				</h1>
-				<p class="info">
-					Love to Design and capture Photographs :)
-				</p>
-				<button class="me">
-					<p class="button_p">Hire Me</p>
-				</button>
-				<button class="me">
-					<p class="button_p">Follow Me</p>
-				</button>
-			</div>
+		</div><!--wrapper-->
+		<div class="background">
+			
 		</div>
 	</header><!-- .header-->
 	</div><!--section0-->
