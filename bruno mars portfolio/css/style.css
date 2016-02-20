@@ -80,6 +80,11 @@ body {
 }
 
 .head_container {
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	position: relative;
+	vertical-align: middle;
 
 }
 
@@ -99,6 +104,7 @@ body {
 .menu:hover {
 	opacity: 0.6;
 }
+
 
 .photo_container {
 	padding-top: 135px;
