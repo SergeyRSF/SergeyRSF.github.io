@@ -49,6 +49,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 body {
 	font: 12px/18px Arial, sans-serif;
 }
+
+a {
+	text-decoration: none;
+}
+
 #wrapper {
 	min-width: 600px;
 	max-width: 1400px;
@@ -197,7 +202,7 @@ p.button_p {
 .content {
 }
 
-#section1 {
+#section1, #section2, #section3, #section4, #section5 {
 	background-color: #f3f3f3;
 }
 
@@ -453,7 +458,7 @@ p.product_info {
 	margin-bottom: none;
 }
 
-a.a_portfolio:hover .slide_content {
+/*a.a_portfolio:hover .slide_content {
 	display: block;
 	margin-top: -204px;
 	z-index: 1000000;
@@ -461,17 +466,23 @@ a.a_portfolio:hover .slide_content {
 
 a.a_portfolio:hover .imgs {
 	z-index: 11;
-}
-
+}*/
 
 .p_slide {
 	float: left;
 	width: 265px;
 	height: 200px;
+	position: relative;
+}
+
+.p_slide:hover .slide_content {
+	display: block;
+	margin-top: -204px;
+	z-index: 1000000;
 }
 
 .imgs {
-
+	position: relative;
 }
 
 .p_slide img {
@@ -482,16 +493,15 @@ a.a_portfolio:hover .imgs {
 .slide_content {
 	width: 265px;
     height: 199px;
-    /*display: none;
+    position: relative;
+    display: none;
     overflow: hidden;
-    -moz-transition: background-color 0.8s 0.1s ease;
+    /*-moz-transition: background-color 0.8s 0.1s ease;
 	-o-transition: background-color 0.8s 0.1s ease;
 	-webkit-transition: background-color 0.8s 0.1s ease;
 	transition: background-color 0.8s 0.1s ease;
 	background-color: #ed003c;
 	background: rgba(237,28,36,0.8);*/
-	
-	z-index: 1000000;
 }
 
 /*//////////////////////////////////////////////////////////////////////////////*/
@@ -513,7 +523,7 @@ a.a_portfolio:hover .imgs {
 .blog_content {
 	max-width: 1060px;
 	min-width: 320px;
-	height: 100%;
+	height: auto;
 	margin: 0 auto;
 }
 
@@ -604,9 +614,105 @@ button.see_more:hover {
 	opacity: 0.8;
 }
 
+.check_out {
+	width: 700px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.check_info {
+	font: 24px/26px Raleway;
+	color: #515151;
+}
+
+.check_out span {
+	text-transform: uppercase;
+	color: #64c9db;
+	font: 24px/26px Raleway SemiBold;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.metrics {
+	width: 100%;
+	height: 657px;
+	background-color: #1f2327;
+}
+
+.contact {
+	width: 700px;
+	height: 55px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+p.discuss {
+	font: 24px Raleway Medium;
+	color: #595959;
+	float: left;
+	margin-top: 12px;
+}
+
+button.contact_me {
+	width: 168px;
+	height: 55px;
+	background-color: #5dbed2;
+	border-radius: 8px;
+	float: left;
+	margin-left: 25px;
+	border: 0px;
+	border-spacing: 0px;
+	outline: 0;
+	cursor: pointer;
+}
+
+p.cme {
+	font: 24px Raleway;
+	color: #fff;
+}
+
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
-	height: 225px;
-	background: #BFF08E;
+	width: 100%;
+	height: 70px;
+	background-color: #f3f3f3;
+}
+
+.social {
+	width: 1200px;
+	height: 70px;
+	margin: 0 auto;
+	border-top: 1px solid #cccccc;
+}
+
+.copyright {
+	width: 155px;
+	height: 70px;
+	float: left;
+}
+
+p.soc_bruno {
+	font: 18px/70px Raleway Medium;
+	color: #8e8e8e;
+}
+
+.icons {
+	width: 123px;
+	height: 48px;
+	float: right;
+	padding-top: 22px;
+}
+
+.icons img {
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.icons img:hover {
+	opacity: 0.8;
+	
 }
