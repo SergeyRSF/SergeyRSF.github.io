@@ -477,7 +477,7 @@ a.a_portfolio:hover .imgs {
 
 .p_slide:hover .slide_content {
 	display: block;
-	margin-top: -204px;
+	margin-top: -199px;
 	z-index: 1000000;
 }
 
@@ -496,12 +496,46 @@ a.a_portfolio:hover .imgs {
     position: relative;
     display: none;
     overflow: hidden;
-    /*-moz-transition: background-color 0.8s 0.1s ease;
+    -moz-transition: background-color 0.8s 0.1s ease;
 	-o-transition: background-color 0.8s 0.1s ease;
 	-webkit-transition: background-color 0.8s 0.1s ease;
 	transition: background-color 0.8s 0.1s ease;
-	background-color: #ed003c;
-	background: rgba(237,28,36,0.8);*/
+	text-align: center; 
+}
+
+.slide_content:hover {
+	background: rgba(20,31,34,0.9);
+}
+
+.plus {
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: 34px;
+}
+
+p.hover_title {
+	font: 24px/26px Raleway Light;
+	color: #cfcfcf;
+	margin-top: 14px;
+	display: block;
+	top: -200px;
+	-webkit-transition: 0.8s 0.08s ease;
+	-o-transition: 0.8s 0.08s ease;
+	-moz-transition: 0.8s 0.08s ease;
+	transition: 0.8s 0.08s ease;
+}
+
+p.hover_info {
+	font: 16px/26px Raleway Semibold;
+	color: #cfcfcf;
+	margin-top: 3px;
+	bottom: -200px;
+	-webkit-transition: 0.8s 0.08s ease;
+	-o-transition: 0.8s 0.08s ease;
+	-moz-transition: 0.8s 0.08s ease;
+	transition: 0.8s 0.08s ease;
 }
 
 /*//////////////////////////////////////////////////////////////////////////////*/
