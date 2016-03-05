@@ -258,12 +258,14 @@ h1.title {
 	/*max-width: 560px;*/
 	/*width: auto;
 	height: auto;*/
-	height: 100%;
+	width: 50%;
 	float: left;
 	margin-left: 30px;
 	position: relative;
 	display: inline-block;
 	text-align: left;
+	overflow: hidden;
+	box-sizing: border-box;
 }
 
 h3.bruno {
@@ -290,18 +292,26 @@ p.lore {
 }
 
 
+.video_container {
+	width: 50%;
+	height: auto;
+	float: right;
+
+}
+
 .video {
 	/*width: 463px;
 	height: 345px;*/
-	min-width: 200px;
-	max-width: 465px;
-	width: auto;
-	float: right;
+	/*max-width: 463px;
+	height: auto;*/
 	margin-right: 30px;
 	margin-left: 20px;
-	display: inline-block;
 	position: relative;
 	vertical-align: middle;
+	padding-bottom: 110px;
+	overflow: hidden;
+	box-sizing: border-box;
+	display: inline-block;
 }
 
 
@@ -315,7 +325,8 @@ p.lore {
 	width: 113px;
 	height: 113px;
 	cursor: pointer;
-	margin-top: -225px;
+	margin-top: -228px;
+	top: 0;
 }
 
 .play:hover {
@@ -333,6 +344,7 @@ p.lore {
 		float: none;
 		margin: 0 auto;
 		text-align: center;
+		width: auto;
 	}
 
 	.video {
@@ -340,7 +352,7 @@ p.lore {
 		margin: 0 auto;
 		margin-top: 20px;
 		margin-bottom: 50px;
-		margin-left: 0px;
+		width: 100%;
 	}
 }
 
