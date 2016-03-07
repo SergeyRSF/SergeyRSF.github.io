@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width" />
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript">
+	$(document).ready(
+    function(){
+        $(window).resize(function(){
+            var height = $(window).height();
+            $('.background').css({
+                'height':height
+            });
+        }).resize();
+    }
+);
+	</script>
+	<script type="text/javascript">
+	$(document).ready(
+    function(){
+        $(window).resize(function(){
+            var height = $(window).height();
+            $('.fone').css({
+                'height':height
+            });
+        }).resize();
+    }
+);
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				'verticalCentered': false,
+				'css3': true,
+				'navigation': true,
+				'navigationPosition': 'right',
+
+				'onLeave': function(index, nextIndex, direction){
+					if (index == 3 && direction == 'down'){
+						$('.section').eq(index -1).removeClass('moveDown').addClass('moveUp');
+					}
+					else if(index == 3 && direction == 'up'){
+						$('.section').eq(index -1).removeClass('moveUp').addClass('moveDown');
+					}
+				}
+			});
+		});
+	</script>
+</head>
+
+<body>
+
+<!--<div id="wrapper">-->
+<div id="fullpage">
+	<div class="section " id="section0">
+		<header class="header">
+		<div class="wrapper">
+			<div class="head_container">
+				<div class="menu">
+					
+				</div>
+				<div class="photo_container">
+					<div class="photo">
+						<img class="face" src="img/owner.png"></img>
+					</div>
+				</div>
+				<div class="owner">
+					<h2 class="name">
+						Bruno Mars
+					</h2>
+					<p class="info">
+						Love to Design and capture Photographs :)
+					</p>
+					<button class="me">
+						<p class="button_p">Hire Me</p>
+					</button>
+					<button class="me">
+						<p class="button_p">Follow Me</p>
+					</button>
+				</div>
+			</div>
+		</div><!--wrapper-->
+		<div class="background">
+			
+		</div>
+	</header><!-- .header-->
+	</div><!--section0-->
+	<div class="section " id="section1">
+		<div class="wrapper">
+			<div class="about">
+				<div class="about_me">
+					<h1 class="title">
+						ABOUT ME
+					</h1>
+					<div class="title_line"></div>
+				</div>
+				<!--<div class="profile">-->
+				<div class="about_row">
+						<div class="profile_text">
+							<h3 class="bruno">Bruno Mars</h3>
+							<p class="design">Graphic Designer,UI/UX Expert </p>
+							<p class="lore">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla fam.</p>
+						</div>
+						<!--<div class="video_container">-->
+							<div class="video">
+								<a href="" class="a_video">
+								<img src="img/owner_two.png">
+									<div class="play">
+										<img src="img/play.png"></img>
+									</div>
+								</a>
+							</div>
+						<!--</div>-->
+						<div style="clear:both"></div>
+				</div>		
+				<!--</div>-->
+			</div>
+		</div>
+	</div><!--section1-->
+	<div class="section moveDown" id="section2">
+		<div class="services">
+			<div class="wrapper">
+				<div class="my_services">
+					<h1 class="title">
+						MY SERVICE
+					</h1>
+					<div class="title_line"></div>
+				</div>
+					<div class="six">
+						<div class="service_row">
+							<div class="service">
+								<a href="" class="a_service"><img src="img/s1.png"></a>
+								<p class="product">product design</p>
+								<p class="product_info">
+									Lorem ipsum dolor sat amet. Consectetuer adipscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+								</p>
+							</div>
+							<div class="service">
+								<a href="" class="a_service"><img src="img/s2.png"></a>
+								<p class="product">product design</p>
+								<p class="product_info">
+									Lorem ipsum dolor sat amet. Consectetuer adipscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+								</p>
+							</div>
+							<div class="service">
+								<a href="" class="a_service"><img src="img/s3.png"></a>
+								<p class="product">product design</p>
+								<p class="product_info">
+									Lorem ipsum dolor sat amet. Consectetuer adipscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+								</p>
+							</div>
+						</div>
+						<div class="service_row">
+							<div class="service">
+								<a href="" class="a_service"><img src="img/s4.png"></a>
+								<p class="product">product design</p>
+								<p class="product_info">
+									Lorem ipsum dolor sat amet. Consectetuer adipscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+								</p>
+							</div>
+							<div class="service">
+								<a href="" class="a_service"><img src="img/s5.png"></a>
+								<p class="product">product design</p>
+								<p class="product_info">
+									Lorem ipsum dolor sat amet. Consectetuer adipscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+								</p>
+							</div>
+							<div class="service">
+								<a href="" class="a_service"><img src="img/s6.png"></a>
+								<p class="product">product design</p>
+								<p class="product_info">
+									Lorem ipsum dolor sat amet. Consectetuer adipscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+								</p>
+							</div>
+						</div>
+					</div>
+			</div>
+			<div class="fone"></div>
+		</div>
+		<!--<footer class="footer">
+		<div class="wrapper">
+		<strong>Footer:</strong> Mus elit Morbi mus enim lacus at quis Nam eget morbi. Et semper urna urna non at cursus dolor vestibulum neque enim. Tellus interdum at laoreet laoreet lacinia lacinia sed Quisque justo quis. Hendrerit scelerisque lorem elit orci tempor tincidunt enim Phasellus dignissim tincidunt. Nunc vel et Sed nisl Vestibulum odio montes Aliquam volutpat pellentesque. Ut pede sagittis et quis nunc gravida porttitor ligula.
+		</div>
+		</footer>--><!-- .footer -->
+	</div><!--section2-->
+	<div class="section moveDown" id="section3">
+		<div class="portfolio">
+			<div class="portfolio_title">
+				<h1 class="title">
+					PORTFOLIO
+				</h1>
+				<div class="title_line"></div>
+			</div>
+			<div class="p_content">
+					<div class="p_slide">
+						<a href="" class="a_portfolio">
+							<div class="imgs"><img src="img/p1.png"></div>
+							<div class="slide_content">
+								<div class="plus">
+									<a href=""><img src="img/phover.png"></a>
+								</div>
+								<p class="hover_title">Product Design</p>
+								<p class="hover_info">“LimeLight”</p>
+							</div>
+						</a>	
+					</div>
+						<div class="p_slide">
+						<a href="" class="a_portfolio">
+							<div class="imgs"><img src="img/p2.png"></div>
+							<div class="slide_content">
+								<div class="plus">
+									<a href=""><img src="img/phover.png"></a>
+								</div>
+								<p class="hover_title">Product Design</p>
+								<p class="hover_info">“LimeLight”</p>
+							</div>
+						</a>	
+					</div>
+						<div class="p_slide">
+						<a href="" class="a_portfolio">
+							<div class="imgs"><img src="img/p3.png"></div>
+							<div class="slide_content">
+								<div class="plus">
+									<a href=""><img src="img/phover.png"></a>
+								</div>
+								<p class="hover_title">Product Design</p>
+								<p class="hover_info">“LimeLight”</p>
+							</div>
+						</a>	
+					</div>
+						<div class="p_slide">
+						<a href="" class="a_portfolio">
+							<div class="imgs"><img src="img/p4.png"></div>
+							<div class="slide_content">
+								<div class="plus">
+									<a href=""><img src="img/phover.png"></a>
+								</div>
+								<p class="hover_title">Product Design</p>
+								<p class="hover_info">“LimeLight”</p>
+							</div>
+						</a>	
+					</div>
+					<div class="p_slide">
+						<a href="" class="a_portfolio">
+							<div class="imgs"><img src="img/p5.png"></div>
+							<div class="slide_content">
+								<div class="plus">
+									<a href=""><img src="img/phover.png"></a>
+								</div>
+								<p class="hover_title">Product Design</p>
+								<p class="hover_info">“LimeLight”</p>
+							</div>
+						</a>	
+					</div>	
+					<div class="p_slide">
+						<a href="" class="a_portfolio">
+							<div class="imgs"><img src="img/p6.png"></div>
+							<div class="slide_content">
+								<div class="plus">
+									<a href=""><img src="img/phover.png"></a>
+								</div>
+								<p class="hover_title">Product Design</p>
+								<p class="hover_info">“LimeLight”</p>
+							</div>
+						</a>	
+					</div>
+					<div class="p_slide">
+						<a href="" class="a_portfolio">
+							<div class="imgs"><img src="img/p7.png"></div>
+							<div class="slide_content">
+								<div class="plus">
+									<a href=""><img src="img/phover.png"></a>
+								</div>
+								<p class="hover_title">Product Design</p>
+								<p class="hover_info">“LimeLight”</p>
+							</div>
+						</a>	
+					</div>
+					<div class="p_slide">
+						<a href="" class="a_portfolio">
+							<div class="imgs"><img src="img/p8.png"></div>
+							<div class="slide_content">
+								<div class="plus">
+									<a href=""><img src="img/phover.png"></a>
+								</div>
+								<p class="hover_title">Product Design</p>
+								<p class="hover_info">“LimeLight”</p>
+							</div>
+						</a>	
+					</div>
+			</div>
+		</div>
+	</div><!--section3-->
+	<div class="section moveDown" id="section4">
+		<div class="my_blog">
+			<div class="blog_title">
+				<h1 class="title">
+					MY BLOG
+				</h1>
+				<div class="title_line"></div>
+			</div>
+			<div class="blog_content">
+				<div class="blog_column">
+					<div class="blog_post">
+						<div class="blog_pic">
+							<a href="">
+								<img src="img/blog1.png">
+							</a>
+						</div>
+						<div class="post_name">
+							<h4 class="trend">
+								Design Trend 2014
+							</h4>
+							<p class="post_author">
+								Bruno mars | 13 comments
+							</p>
+						</div>
+						<p class="post_info">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.dolor in hendrerit in vulputate velit.
+						</p>
+						<a href="">
+							<button class="see_more">
+								<p>SEE MORE</p>
+							</button>
+						</a>
+					</div>
+					<div class="blog_post">
+						<div class="blog_pic">
+							<a href="">
+								<img src="img/blog4.png">
+							</a>
+						</div>
+						<div class="post_name">
+							<h4 class="trend">
+								Design Trend 2014
+							</h4>
+							<p class="post_author">
+								Bruno mars | 13 comments
+							</p>
+						</div>
+						<p class="post_info">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.
+						</p>
+						<button class="see_more">
+							<p>SEE MORE</p>
+						</button>
+					</div>
+				</div>
+				<div class="blog_column_center">
+					<div class="blog_post">
+						<div class="blog_pic">
+							<a href="">
+								<img src="img/blog2.png">
+							</a>
+						</div>
+						<div class="post_name">
+							<h4 class="trend">
+								Design Trend 2014
+							</h4>
+							<p class="post_author">
+								Bruno mars | 13 comments
+							</p>
+						</div>
+						<p class="post_info">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.
+						</p>
+						<button class="see_more">
+							<p>SEE MORE</p>
+						</button>
+					</div>
+					<div class="blog_post">
+						<div class="blog_pic">
+							<a href="">
+								<img src="img/blog5.png">
+								<div class="post_play">
+									<img src="img/post_play.png">
+								</div>
+							</a>
+						</div>
+						<div class="post_name">
+							<h4 class="trend">
+								Design Trend 2014
+							</h4>
+							<p class="post_author">
+								Bruno mars | 13 comments
+							</p>
+						</div>
+						<p class="post_info">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.dolor in hendrerit in vulputate velit.
+						</p>
+						<button class="see_more">
+							<p>SEE MORE</p>
+						</button>
+					</div>
+				</div>
+				<div class="blog_column">
+					<div class="blog_post">
+						<div class="blog_pic">
+							<a href="">
+								<img src="img/blog3.png">
+								<div class="post_play">
+									<img src="img/post_play.png">
+								</div>
+							</a>
+						</div>
+						<div class="post_name">
+							<h4 class="trend">
+								Design Trend 2014
+							</h4>
+							<p class="post_author">
+								Bruno mars | 13 comments
+							</p>
+						</div>
+						<p class="post_info">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.dolor in hendrerit in vulputate velit.
+						</p>
+						<button class="see_more">
+							<p>SEE MORE</p>
+						</button>
+					</div>
+					<div class="blog_post">
+						<div class="blog_pic">
+							<a href="">
+								<img src="img/blog1.png">
+							</a>
+						</div>
+						<div class="post_name">
+							<h4 class="trend">
+								Design Trend 2014
+							</h4>
+							<p class="post_author">
+								Bruno mars | 13 comments
+							</p>
+						</div>
+						<p class="post_info">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.dolor in hendrerit in vulputate velit.
+						</p>
+						<button class="see_more">
+							<p>SEE MORE</p>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="check_out">
+				<p class="check_info">
+					Check Out My <a href=""><span>Blog</span></a> And Subscribe To Get All The Updates
+				</p>
+			</div>
+		</div>
+	</div><!--section 4-->
+	<div class="section moveDown" id="section5">
+		<div class="metrics">
+			
+		</div>
+		<div class="contact">
+			<p class="discuss">Want To Discuss Any Creative Project ?</p>
+				<a href="">
+					<button class="contact_me">
+						<p class="cme">Contact Me</p>
+					</button>
+				</a>
+		</div>
+		<div style="clear:both"></div>
+		<div class="footer">
+			<div class="social">
+				<div class="copyright">
+					<p class="soc_bruno">
+						©2014 Bruno Mars
+					</p>
+				</div>
+				<div class="icons">
+					<img src="img/social1.png">
+					<img src="img/social2.png">
+					<img src="img/social3.png">
+					<img src="img/social4.png">
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!--fullpage-->
+	<!--<main class="content">-->
+		
+	<!--</main>--><!-- .content -->
+
+<!--Проверка nhb-->	
+
+<!--</div>--><!-- #wrapper -->
+
+</body>
+</html>
