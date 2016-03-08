@@ -370,7 +370,7 @@ p.lore {
 
 .services {
 	width: 100%;
-	height: auto;
+	height: 100%;
 	z-index: 1000000;
 	position: relative;
 	background-color: #1d232b;
