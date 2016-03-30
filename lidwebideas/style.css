@@ -40,6 +40,20 @@ p.punkt {
 	font-size: 15px;
 }
 
+p.first {
+	font-size: 30px;
+}
+
+
+p.razdel {
+	font-size: 20px;
+	font-weight: bold;
+}
+
 span {
 	font-weight: bold;
 }
+
+/*div.pages {
+	padding-left: 20px;
+}*/
