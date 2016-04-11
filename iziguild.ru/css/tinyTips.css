@@ -1,0 +1,19 @@
+﻿@charset "utf-8";
+
+.darkTip { 
+
+}
+.darkTip .content { 
+	padding: 5px; 
+	border: 3px solid #303030; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	background: #505050; 
+	color: #f8f8f8; 
+	text-align: center;
+}
+
+.darkTip .bottom { 
+	height: 14px; 
+	background: url(../img/notch-dark.png) top center no-repeat; 
+}
