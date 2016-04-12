@@ -111,8 +111,8 @@ button {
        -moz-transition: top 3s ease-out 1.5s;
        -o-transition: top 3s ease-out 1.5s;
        transition: top 3s ease-out 1.5s;transition: 1.5s 1.5s ease;*/
-  -webkit-transition: 1s ease;
-  transition: 1s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 .header .wrapper .menu ul.hmenu li .hmenu_p {
   color: #fff;
@@ -138,8 +138,7 @@ button {
 }
 .content .wrapper .maincontent {
   width: 1110px;
-  min-height: 2365px;
-  max-height: 100%;
+  height: 2050px;
   background-color: #242424;
   margin: 0 auto;
   padding: 20px;
@@ -147,7 +146,6 @@ button {
 .content .wrapper .maincontent .lcon {
   float: left;
   width: 840px;
-  height: 2365px;
 }
 .content .wrapper .maincontent .lcon .feature {
   width: 820px;
@@ -295,13 +293,15 @@ button {
 .content .wrapper .maincontent .lcon .feature .sectionFooter .continue button {
   display: inline-block;
   color: #fff;
-  background-color: #A71A19;
+  background: #A71A19 url(../img/light.png) repeat-x center -7px;
   border: 1px solid #A71A19;
   padding: 0px 6px;
   border-radius: 2px;
   text-align: center;
   font-size: 13px;
   height: 23px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .content .wrapper .maincontent .lcon .feature .sectionFooter .continue button img {
   float: left;
@@ -312,7 +312,7 @@ button {
   float: right;
 }
 .content .wrapper .maincontent .lcon .feature .sectionFooter .continue button:hover {
-  background-color: #8C2A2A;
+  background: #8C2A2A;
   opacity: none;
 }
 .content .wrapper .maincontent .lcon .feature .sectionFooter .continue button:hover p {
@@ -369,7 +369,6 @@ button {
 .content .wrapper .maincontent .sidebar {
   float: right;
   width: 250px;
-  height: 2365px;
   /*side_feature*/
 }
 .content .wrapper .maincontent .sidebar .autho {
@@ -391,12 +390,21 @@ button {
   font-size: 12px;
   font-weight: bold;
   color: #fff;
-  background: #e68c17 url(../img/light.png) repeat-x center -7px;
+  background: #A71A19 url(../img/light.png) repeat-x center -7px;
   width: 110px;
   height: 25px;
   outline: 0 !important;
-  border-spacing: 0px;
-  border: 3px solid #fff;
+  border-spacing: 0px !important;
+  border: 0px;
+  transition: 0.5s;
+  /*border: 3px solid #fff;*/
+}
+.content .wrapper .maincontent .sidebar .autho button:hover {
+  background: #8C2A2A;
+}
+.content .wrapper .maincontent .sidebar .autho button:hover p {
+  color: #FFB100;
+  transition: 0.5s;
 }
 .content .wrapper .maincontent .sidebar .autho a:hover {
   text-decoration: underline;
@@ -508,7 +516,7 @@ button {
   border-right: 6px solid transparent;
   border-top-color: #161616;
   position: absolute;
-  bottom: -34%;
+  bottom: -31%;
   left: 45%;
   content: '';
 }
@@ -534,6 +542,7 @@ button {
 }
 .content .wrapper .maincontent .sidebar .side_feature .clas .specs .cube:hover .modal_inner {
   display: block;
+  pointer-events: none;
 }
 .content .wrapper .maincontent .sidebar .side_feature .clas .specs .gscale {
   -webkit-filter: grayscale(100%);
@@ -607,22 +616,63 @@ button {
   background-color: #303030;
   margin-bottom: 3px;
 }
+.content .wrapper .maincontent .sidebar .side_feature .stream:last-child {
+  margin-bottom: 0px;
+}
 .content .wrapper .maincontent .sidebar .side_feature .tube_stream {
   width: 168px;
   height: 48px;
+  margin-bottom: 5px;
+}
+.content .wrapper .maincontent .sidebar .side_feature .tube_stream #___ytsubscribe_0, .content .wrapper .maincontent .sidebar .side_feature .tube_stream #___ytsubscribe_1, .content .wrapper .maincontent .sidebar .side_feature .tube_stream #___ytsubscribe_2, .content .wrapper .maincontent .sidebar .side_feature .tube_stream #___ytsubscribe_3 {
+  text-indent: 0px;
+  margin: 0px;
+  padding: 0px;
+  border-style: none;
+  float: none;
+  line-height: normal;
+  font-size: 1px;
+  vertical-align: baseline;
+  display: inline-block;
+  width: 175px !important;
+  height: 48px;
+  background: transparent;
+  position: relative !important;
+  left: 0px !important;
+}
+.content .wrapper .maincontent .sidebar .side_feature .tube_stream #___ytsubscribe_0 iframe, .content .wrapper .maincontent .sidebar .side_feature .tube_stream #___ytsubscribe_1 iframe, .content .wrapper .maincontent .sidebar .side_feature .tube_stream #___ytsubscribe_2 iframe, .content .wrapper .maincontent .sidebar .side_feature .tube_stream #___ytsubscribe_3 iframe {
+  position: static !important;
+  top: 0px !important;
+  width: 175px !important;
+  margin: 0px;
+  border-style: none;
+  left: 0px;
+  visibility: visible;
+  height: 48px;
+}
+.content .wrapper .maincontent .sidebar .side_feature .tube_stream:last-child {
+  margin-bottom: 0px;
 }
 .content .wrapper .maincontent .sidebar button.z_button {
   width: 164px;
   height: 54px;
-  border: 3px solid #fff;
+  border: 0px;
   border-radius: 10px;
   font-size: 20px;
   font-weight: bold;
-  background-color: #e68c17;
+  background: #A71A19 url(../img/light.png) repeat-x center -7px;
   outline: 0 !important;
   border-spacing: 0px;
   color: #fff;
   margin: 0px 0px 20px 43px;
+  transition: 0.5s;
+}
+.content .wrapper .maincontent .sidebar button.z_button:hover {
+  background: #8C2A2A;
+}
+.content .wrapper .maincontent .sidebar button.z_button:hover p {
+  color: #FFB100;
+  transition: 0.5s;
 }
 .content .wrapper .bread_con {
   width: 1150px;
@@ -809,8 +859,8 @@ button {
   text-align: center;
   padding: 17px 15px 0px 15px;
   height: 33px;
-  -webkit-transition: 1s ease;
-  transition: 1s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 .footer .footerContent ul.footerLinks li p {
   color: #fff;
