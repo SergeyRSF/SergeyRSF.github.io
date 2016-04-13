@@ -301,6 +301,8 @@ button {
   font-size: 13px;
   height: 23px;
   -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 .content .wrapper .maincontent .lcon .feature .sectionFooter .continue button img {
@@ -313,6 +315,10 @@ button {
 }
 .content .wrapper .maincontent .lcon .feature .sectionFooter .continue button:hover {
   background: #8C2A2A;
+  -webkit-transition: 2.5s;
+  -moz-transition: 2.5s;
+  -o-transition: 2.5s;
+  transition: 2.5s;
   opacity: none;
 }
 .content .wrapper .maincontent .lcon .feature .sectionFooter .continue button:hover p {
@@ -396,14 +402,24 @@ button {
   outline: 0 !important;
   border-spacing: 0px !important;
   border: 0px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
   /*border: 3px solid #fff;*/
 }
 .content .wrapper .maincontent .sidebar .autho button:hover {
   background: #8C2A2A;
+  -webkit-transition: 2.5s;
+  -moz-transition: 2.5s;
+  -o-transition: 2.5s;
+  transition: 2.5s;
 }
 .content .wrapper .maincontent .sidebar .autho button:hover p {
   color: #FFB100;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 .content .wrapper .maincontent .sidebar .autho a:hover {
@@ -416,12 +432,19 @@ button {
 .content .wrapper .maincontent .sidebar .autho .check {
   padding: 10px 20px 0px 20px;
 }
-.content .wrapper .maincontent .sidebar .autho .check input {
+.content .wrapper .maincontent .sidebar .autho .check label input {
   float: left;
   width: 15px;
   height: 15px;
   margin-bottom: 0px;
   margin-top: 15px;
+}
+.content .wrapper .maincontent .sidebar .autho .check label p {
+  color: #fff;
+  cursor: pointer;
+}
+.content .wrapper .maincontent .sidebar .autho .check label p:hover {
+  text-decoration: underline;
 }
 .content .wrapper .maincontent .sidebar .autho .check p.pass {
   float: left;
@@ -665,13 +688,23 @@ button {
   border-spacing: 0px;
   color: #fff;
   margin: 0px 0px 20px 43px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 .content .wrapper .maincontent .sidebar button.z_button:hover {
   background: #8C2A2A;
+  -webkit-transition: 2.5s;
+  -moz-transition: 2.5s;
+  -o-transition: 2.5s;
+  transition: 2.5s;
 }
 .content .wrapper .maincontent .sidebar button.z_button:hover p {
   color: #FFB100;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 .content .wrapper .bread_con {
