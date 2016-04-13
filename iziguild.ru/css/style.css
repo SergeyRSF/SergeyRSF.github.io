@@ -163,7 +163,7 @@ button {
   position: absolute;
   width: 100%;
   bottom: 0px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
 }
 .content .wrapper .maincontent .lcon .feature .slider .summary .title {
@@ -193,14 +193,14 @@ button {
 }
 .content .wrapper .maincontent .lcon .feature .date_block .heading {
   background-color: #901515;
-  padding: 5px 3px;
+  padding: 8px 3px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   font-weight: bolder;
   color: #fff;
 }
 .content .wrapper .maincontent .lcon .feature .date_block .heading p {
-  font: 18px Verdana, sans-serif;
+  font: 15px Verdana, sans-serif;
   font-weight: bold;
 }
 .content .wrapper .maincontent .lcon .feature .date_block .secondaryContent {
@@ -371,6 +371,8 @@ button {
 }
 .content .wrapper .maincontent .lcon .slide {
   padding: 0px;
+  width: 840px;
+  height: 250px;
 }
 .content .wrapper .maincontent .sidebar {
   float: right;
@@ -511,17 +513,18 @@ button {
   margin-right: 0px !important;
 }
 .content .wrapper .maincontent .sidebar .side_feature .clas .specs .cube .modal_inner {
-  width: 103px;
-  height: 50px;
+  /*width: 103px;
+  height: 50px;*/
   background-color: #242424;
   border: 5px solid #161616;
   border-radius: 5px;
   position: absolute;
   z-index: 1000;
   display: none;
-  margin-left: -44px;
-  margin-top: -100px;
+  /*margin-left: -44px;*/
+  margin-top: -90px;
   text-align: center;
+  padding: 3px;
   /*&:after {
   	border:6px solid transparent;
   	border-bottom-color: #e2534b;
@@ -536,12 +539,12 @@ button {
   border-right: 6px solid transparent;
   border-top-color: #161616;
   position: absolute;
-  bottom: -31%;
-  left: 45%;
+  bottom: -46%;
+  left: 40%;
   content: '';
 }
 .content .wrapper .maincontent .sidebar .side_feature .clas .specs .cube .modal_inner p.spec {
-  font: 9px Verdana;
+  font: 13px Verdana;
   color: #BBB;
 }
 .content .wrapper .maincontent .sidebar .side_feature .clas .specs .cube .modal_inner p.prior {

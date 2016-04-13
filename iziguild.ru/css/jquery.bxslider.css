@@ -26,11 +26,13 @@
 }
 
 .bx-wrapper li {
-	height: 260px;
+	height: 250px;
 	background-position: center center;
 	background-repeat: no-repeat;
 
 }
+
+
 
 .bx-wrapper img {
 	max-width: 100%;
@@ -42,7 +44,7 @@
 
 .bx-wrapper .bx-viewport {
 	width: 840px;
-	height: 260px !important;
+	height: 250px !important;
 	border-radius: 10px;
 	
 	/*fix other elements on the page moving (on Chrome)*/
@@ -91,7 +93,7 @@
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-	background: #666;
+	background: rgba(128, 128, 128, 0.7);
 	text-indent: -9999px;
 	display: block;
 	width: 10px;
@@ -101,6 +103,10 @@
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 1px #FFF inset;
+    -moz-box-shadow: 0px 0px 1px #FFF inset;
+    -khtml-box-shadow: 0px 0px 1px #FFF inset;
+    box-shadow: 0px 0px 1px #FFF inset;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
