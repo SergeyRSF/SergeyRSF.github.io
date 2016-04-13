@@ -443,9 +443,6 @@ button {
   color: #fff;
   cursor: pointer;
 }
-.content .wrapper .maincontent .sidebar .autho .check label p:hover {
-  text-decoration: underline;
-}
 .content .wrapper .maincontent .sidebar .autho .check p.pass {
   float: left;
   margin-top: 16px;
