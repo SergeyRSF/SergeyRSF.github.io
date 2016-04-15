@@ -507,65 +507,12 @@ button {
   height: 27px;
   position: relative;
   z-index: 1;
-  cursor: pointer;
 }
 .content .wrapper .maincontent .sidebar .side_feature .clas .specs .cube:last-child {
   margin-right: 0px !important;
 }
-.content .wrapper .maincontent .sidebar .side_feature .clas .specs .cube .modal_inner {
-  /*width: 103px;
-  height: 50px;*/
-  background-color: #242424;
-  border: 5px solid #161616;
-  border-radius: 5px;
-  position: absolute;
-  z-index: 1000;
-  display: none;
-  /*margin-left: -44px;*/
-  margin-top: -90px;
-  text-align: center;
-  padding: 3px;
-  /*&:after {
-  	border:6px solid transparent;
-  	border-bottom-color: #e2534b;
-  	position:absolute;
-  	bottom:100%;
-  	left:12px;
-  	content:'';
-  }*/
-}
-.content .wrapper .maincontent .sidebar .side_feature .clas .specs .cube .modal_inner:before {
-  border: 6px solid transparent;
-  border-right: 6px solid transparent;
-  border-top-color: #161616;
-  position: absolute;
-  bottom: -46%;
-  left: 40%;
-  content: '';
-}
-.content .wrapper .maincontent .sidebar .side_feature .clas .specs .cube .modal_inner p.spec {
-  font: 13px Verdana;
-  color: #BBB;
-}
-.content .wrapper .maincontent .sidebar .side_feature .clas .specs .cube .modal_inner p.prior {
-  font: 11px Verdana;
-  color: #fff;
-  font-weight: bold;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-.content .wrapper .maincontent .sidebar .side_feature .clas .specs .cube .modal_inner .low {
-  color: #40AB21 !important;
-}
-.content .wrapper .maincontent .sidebar .side_feature .clas .specs .cube .modal_inner .medium {
-  color: #FFF569 !important;
-}
-.content .wrapper .maincontent .sidebar .side_feature .clas .specs .cube .modal_inner .high {
-  color: #D03106 !important;
-}
-.content .wrapper .maincontent .sidebar .side_feature .clas .specs .cube:hover .modal_inner {
-  display: block;
-  pointer-events: none;
+.content .wrapper .maincontent .sidebar .side_feature .clas .specs .cube a {
+  cursor: default !important;
 }
 .content .wrapper .maincontent .sidebar .side_feature .clas .specs .gscale {
   -webkit-filter: grayscale(100%);
