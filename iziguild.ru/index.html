@@ -761,13 +761,13 @@
 		  				<h3>Наши стримы:</h3>
 		  				<div class="line"></div>
 		  				<div class="stream">
-		  					<iframe src="http://streambadge.com/twitch/dark/nurseos/" style="border:none; height: 64px; width:100%;"></iframe>
+		  					<iframe src="http://streambadge.com/twitch/dark/o_n_l_i_n_e_/" style="border:none; height: 64px; width:100%;"></iframe>
 			  			</div>
 		  				<div class="stream">
-		  					<iframe src="http://streambadge.com/twitch/dark/cartmanzbs/" style="border:none; height:64px; width:100%"></iframe>
+		  					<iframe src="http://streambadge.com/twitch/dark/spb_89/" style="border:none; height:64px; width:100%"></iframe>
 		  				</div>
 		  				<div class="stream">
-		  					<iframe src="http://streambadge.com/twitch/dark/lightofheaven/" style="border:none;height:64px; width:100%"></iframe>
+		  					<iframe src="http://streambadge.com/twitch/dark/sco/" style="border:none;height:64px; width:100%"></iframe>
 		  				</div>
 		  			</div>
 		  			<div class="side_feature">
@@ -843,7 +843,7 @@
 					<a href="#"><li><p>Обратная связь</p></li></a>
 					<a href="#"><li><p>Помощь</p></li></a>
 					<a href="#"><li><p>Главная</p></li></a>
-					<a href="#"><li><p>Вверх</p></li></a>
+					<a href="#"><li id="up"><p>Вверх</p></li></a>
 					<a href="#"><li><img src="img/rss.png"></li></a>
 				</ul>
 			</div>
@@ -866,5 +866,17 @@
 		  	);
 		});
     </script>
+    <script type="text/javascript">
+		(function($) {
+			$(function() {
+
+			  $('#up').click(function() {
+			    $('html, body').animate({scrollTop: 0},1500);
+			    return false;
+			  })
+
+			})
+			})(jQuery)
+	</script>
   </body>
 </html>
