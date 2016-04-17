@@ -13,7 +13,11 @@
   <body>
 	<div class="header">
 	    <div class="wrapper">
-	  		<div class="logo"><img src="img/logo.png"></div>
+	  		<div class="logo">
+		  		<div class="o_logo">
+		  			<a href="#"><img src="img/logo_2.png"></a>
+		  		</div>
+	  		</div>
 	  		<div class="menu">
 	  			<ul class="hmenu">
 	  				<a href=""><li class="hmenu_li"><p class="hmenu_p">Главная</p></li></a>
@@ -86,11 +90,11 @@
 	  					<div class="primaryContent">
 	  						<div class="singleline">
 	  							<div class="statData">
-	  								<img src="img/mail.png">
+	  								<img src="img/star.png">
 	  								<p>13</p>
 	  							</div>
 	  							<div class="statData">
-	  								<img src="img/gold.png">
+	  								<img src="img/eye_2.png">
 	  								<p>326</p>
 	  							</div>
 	  							<div class="dateData">
@@ -140,11 +144,11 @@
 	  					<div class="primaryContent">
 	  						<div class="singleline">
 	  							<div class="statData">
-	  								<img src="img/mail.png">
+	  								<img src="img/star.png">
 	  								<p>4</p>
 	  							</div>
 	  							<div class="statData">
-	  								<img src="img/gold.png">
+	  								<img src="img/eye_2.png">
 	  								<p>151</p>
 	  							</div>
 	  							<div class="dateData">
@@ -194,11 +198,11 @@
 	  					<div class="primaryContent">
 	  						<div class="singleline">
 	  							<div class="statData">
-	  								<img src="img/mail.png">
+	  								<img src="img/star.png">
 	  								<p>0</p>
 	  							</div>
 	  							<div class="statData">
-	  								<img src="img/gold.png">
+	  								<img src="img/eye_2.png">
 	  								<p>1.217</p>
 	  							</div>
 	  							<div class="dateData">
@@ -248,11 +252,11 @@
 	  					<div class="primaryContent">
 	  						<div class="singleline">
 	  							<div class="statData">
-	  								<img src="img/mail.png">
+	  								<img src="img/star.png">
 	  								<p>7</p>
 	  							</div>
 	  							<div class="statData">
-	  								<img src="img/gold.png">
+	  								<img src="img/eye_2.png">
 	  								<p>233</p>
 	  							</div>
 	  							<div class="dateData">
@@ -302,11 +306,11 @@
 	  					<div class="primaryContent">
 	  						<div class="singleline">
 	  							<div class="statData">
-	  								<img src="img/mail.png">
+	  								<img src="img/star.png">
 	  								<p>2</p>
 	  							</div>
 	  							<div class="statData">
-	  								<img src="img/gold.png">
+	  								<img src="img/eye_2.png">
 	  								<p>298</p>
 	  							</div>
 	  							<div class="dateData">
@@ -356,11 +360,11 @@
 	  					<div class="primaryContent">
 	  						<div class="singleline">
 	  							<div class="statData">
-	  								<img src="img/mail.png">
+	  								<img src="img/star.png">
 	  								<p>2</p>
 	  							</div>
 	  							<div class="statData">
-	  								<img src="img/gold.png">
+	  								<img src="img/eye_2.png">
 	  								<p>314</p>
 	  							</div>
 	  							<div class="dateData">
@@ -710,7 +714,7 @@
 		  					</div>
 		  					<div class="specs">
 		  						<div class="cube gscale">
-		  							<a href="#" title="Баланс<br>(Мункин)" rel="tooltip" style="white-space: nowrap;">
+		  							<a href="#" title="Баланс<br>(Cовух)" rel="tooltip" style="white-space: nowrap;">
 				  						<div class="icon-druid_1">
 								  		</div>
 							  		</a>
@@ -722,7 +726,7 @@
 							  		</a>
 		  						</div>
 		  						<div class="cube">
-		  							<a href="#" title="Силя зверя<br>(Прото ферал)" rel="tooltip" style="white-space: nowrap;">
+		  							<a href="#" title="Силя зверя<br>(Медведь)" rel="tooltip" style="white-space: nowrap;">
 				  						<div class="icon-druid_3">
 								  		</div>
 							  		</a>
@@ -833,21 +837,29 @@
 	<div class="footer">
 		<div class="wrapper">
 			<div class="footerContent">
+				<!-- Удаление ненужного меню
 				<div class="choosers">
 					<ul>
 						<a href="#"><li><p>Annihi Dark</p></li></a>
 						<a href="#"><li><p>Russian (RU)</p></li></a>
 					</ul>
 				</div>
+				-->
 				<ul class="footerLinks">
+					<a href="#"><li><p>Главная</p></li></a>
 					<a href="#"><li><p>Обратная связь</p></li></a>
 					<a href="#"><li><p>Помощь</p></li></a>
-					<a href="#"><li><p>Главная</p></li></a>
+					<!--Удаление ненужных пунктов
 					<a href="#"><li id="up"><p>Вверх</p></li></a>
 					<a href="#"><li><img src="img/rss.png"></li></a>
+					-->
 				</ul>
 			</div>
 		</div>
+	</div>
+	<!--Добавление кнопки-->
+	<div class="idcontent">
+		<a href="#" class="scrollup"><div id="up"></div></a>
 	</div>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>
@@ -867,16 +879,19 @@
 		});
     </script>
     <script type="text/javascript">
-		(function($) {
-			$(function() {
-
-			  $('#up').click(function() {
-			    $('html, body').animate({scrollTop: 0},1500);
-			    return false;
-			  })
-
-			})
-			})(jQuery)
+	    $(document).ready(function() {
+	    	$(window).scroll(function() {
+	    		if ($(this).scrollTop() > 100) {
+	    			$('#up').fadeIn();
+	    		} else {
+	    			$('#up').fadeOut();
+	    		}
+	    	});
+	    	$('#up').click(function() {
+				    $('html, body').animate({scrollTop: 0},600);
+				    return false;
+			});
+	    });
 	</script>
   </body>
 </html>
