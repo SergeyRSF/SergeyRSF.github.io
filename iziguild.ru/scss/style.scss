@@ -571,10 +571,21 @@ button {
 							height: 45px;
 							background-image: url(../img/button-left_2.png);
 							float: left;
+							position: relative;
 							-webkit-transition: 0.5s;
 						-moz-transition: 0.5s;
 						-o-transition: 0.5s;
 						transition: 0.5s;
+
+							&:after {
+								content: "";
+								position: absolute;
+								top: 0;
+								left: 0;
+								background-image: url(../img/button-left-hover_2.png);
+								opacity: 0;
+							}
+
 						}
 
 						.button_middle {
@@ -630,7 +641,17 @@ button {
 
 
 							.button_left {
+								
+
+								&:after {
+									background-image: url(../img/button-left-hover_2.png);
+									top: 0;
+									left: 0;
+									opacity: 1;
+								}
+
 								background-image: url(../img/button-left-hover_2.png);
+
 							}
 
 							.button_middle {

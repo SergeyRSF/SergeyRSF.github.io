@@ -533,10 +533,19 @@ button {
   height: 45px;
   background-image: url(../img/button-left_2.png);
   float: left;
+  position: relative;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+}
+.content .wrapper .maincontent .sidebar .autho .button_legion .button_left:after, .content .wrapper .maincontent .sidebar .autho .button_vhod .button_left:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/button-left-hover_2.png);
+  opacity: 0;
 }
 .content .wrapper .maincontent .sidebar .autho .button_legion .button_middle, .content .wrapper .maincontent .sidebar .autho .button_vhod .button_middle {
   width: 57px;
@@ -582,6 +591,12 @@ button {
 }
 .content .wrapper .maincontent .sidebar .autho .button_legion:hover .button_left, .content .wrapper .maincontent .sidebar .autho .button_vhod:hover .button_left {
   background-image: url(../img/button-left-hover_2.png);
+}
+.content .wrapper .maincontent .sidebar .autho .button_legion:hover .button_left:after, .content .wrapper .maincontent .sidebar .autho .button_vhod:hover .button_left:after {
+  background-image: url(../img/button-left-hover_2.png);
+  top: 0;
+  left: 0;
+  opacity: 1;
 }
 .content .wrapper .maincontent .sidebar .autho .button_legion:hover .button_middle, .content .wrapper .maincontent .sidebar .autho .button_vhod:hover .button_middle {
   background-image: url(../img/button-middle-hover_2.png);
