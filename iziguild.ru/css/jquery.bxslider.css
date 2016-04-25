@@ -22,7 +22,6 @@
 .bx-wrapper {
 	position: relative;
 	padding: 0;
-	*zoom: 1;
 }
 
 .bx-wrapper li {

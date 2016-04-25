@@ -290,11 +290,112 @@ button {
 						height: 23px;
 						background-color: #161616;
 						margin: 0 auto;
+						position: relative;
 
 						.continue {
 							float: right;
+							position: relative;
+							display: inline-block;
 
-							button {
+							.button_legion {
+								display: inline-block;
+								position: relative;
+								cursor: pointer;
+								width: 170px;
+								height: 45px;
+								margin-top: -11px;
+								background: none;
+								border: 0px;
+								padding: 0px;
+								right: -14px;
+								outline: 0 !important;
+
+
+
+								.button_left {
+									width: 56px;
+									height: 45px;
+									background-image: url(../img/button-left_2.png);
+									float: left;
+									-webkit-transition: 0.5s;
+								-moz-transition: 0.5s;
+								-o-transition: 0.5s;
+								transition: 0.5s;
+								}
+
+								.button_middle {
+									width: 57px;
+									height: 45px;
+									background-image: url(../img/button-middle_2.png);
+									background-repeat: repeat-x;
+									float: left;
+									-webkit-transition: 0.5s;
+								-moz-transition: 0.5s;
+								-o-transition: 0.5s;
+								transition: 0.5s;
+								}
+
+								.button_right {
+									width: 56px;
+									height: 45px;
+									background-image: url(../img/button-right_2.png);
+									float: left;
+									-webkit-transition: 0.5s;
+								-moz-transition: 0.5s;
+								-o-transition: 0.5s;
+								transition: 0.5s;
+								}
+
+								.button_text {
+									margin: 0 auto;
+									text-align: center;
+									position: absolute;
+									top: 30%;
+									left: 24%;
+
+									p {
+										font-weight: bold;
+									}
+
+								}
+
+								&:hover {
+
+
+									.button_left {
+										background-image: url(../img/button-left-hover_2.png);
+									}
+
+									.button_middle {
+										background-image: url(../img/button-middle-hover_2.png);
+									}
+
+									.button_right {
+										background-image: url(../img/button-right-hover_2.png);
+									}
+								}
+
+								/*.button_left {
+									position: absolute;
+									top: 0;
+									left: 0;
+									
+
+									&:after {
+										content: "";
+										position: absolute;
+										background-image: url(../img/button-left-hover.png);
+										opacity: 0;
+										-webkit-transition: opacity 0.4s;
+										transition: opacity 0.4s;
+									}
+
+								}*/
+
+							}
+
+
+							/*button {
 								display: inline-block;
 								color: #fff;
 								background: #A71A19 url(../img/light.png) repeat-x center -7px;
@@ -332,7 +433,7 @@ button {
 									color: #FFB100;
 									transition: 0.5s;
 								}
-							}
+							}*/
 						}
 					}	
 				
@@ -416,41 +517,102 @@ button {
 						padding-left: 5px;
 					}
 
+					.button_vhod {
+						float: right;
+						width: 112px;
+						position: absolute !important;
+						margin-top: 0px !important;
+						margin-left: -45px;
 
-					button {
-						border-radius: 4px;
-						font-size: 12px;
-						font-weight: bold;
-						color: #fff;
-						background: #A71A19 url(../img/light.png) repeat-x center -7px;
-						width: 110px;
-						height: 25px;
-						outline: 0 !important;
-						border-spacing: 0px !important;
+						.button_middle {
+							width: 0px !important;
+						}
+
+						.button_text {
+							left: 23% !important;
+						}
+					}
+
+
+					.button_legion, .button_vhod {
+						display: inline-block;
+						position: relative;
+						cursor: pointer;
+						width: 170px;
+						height: 45px;
+						margin-top: 10px;
+						background: none;
 						border: 0px;
-						-webkit-transition: 0.5s;
+						padding: 0px;
+						outline: 0 !important;
+
+
+
+						.button_left {
+							width: 56px;
+							height: 45px;
+							background-image: url(../img/button-left_2.png);
+							float: left;
+							-webkit-transition: 0.5s;
 						-moz-transition: 0.5s;
 						-o-transition: 0.5s;
 						transition: 0.5s;
-						/*border: 3px solid #fff;*/
+						}
 
-						&:hover {
-							background: #8C2A2A;
-							-webkit-transition: 2.5s;
-							-moz-transition: 2.5s;
-							-o-transition: 2.5s;
-							transition: 2.5s;
+						.button_middle {
+							width: 57px;
+							height: 45px;
+							background-image: url(../img/button-middle_2.png);
+							background-repeat: repeat-x;
+							float: left;
+							-webkit-transition: 0.5s;
+						-moz-transition: 0.5s;
+						-o-transition: 0.5s;
+						transition: 0.5s;
+						}
+
+						.button_right {
+							width: 56px;
+							height: 45px;
+							background-image: url(../img/button-right_2.png);
+							float: left;
+							-webkit-transition: 0.5s;
+						-moz-transition: 0.5s;
+						-o-transition: 0.5s;
+						transition: 0.5s;
+						}
+
+						.button_text {
+							margin: 0 auto;
+							text-align: center;
+							position: absolute;
+							top: 33%;
+							left: 26%;
 
 							p {
-								color: #FFB100;
-								-webkit-transition: 0.5s;
-								-moz-transition: 0.5s;
-								-o-transition: 0.5s;
-								transition: 0.5s;
+								font-weight: bold;
 							}
 
 						}
+
+						&:hover {
+
+
+							.button_left {
+								background-image: url(../img/button-left-hover_2.png);
+							}
+
+							.button_middle {
+								background-image: url(../img/button-middle-hover_2.png);
+							}
+
+							.button_right {
+								background-image: url(../img/button-right-hover_2.png);
+							}
+						}
+
 					}
+
 
 					a {
 						&:hover {
