@@ -1191,7 +1191,7 @@ button {
 				width: 1108px;
 				margin: 0 auto;
 				overflow: hidden;
-				background-color: #1A1A1A;
+				background-color: rgba(26,26,26,0.4);
 				border: 1px solid #161616;
 				border-radius: 5px;
 				height: 24px;
@@ -1402,7 +1402,7 @@ button {
 				transition: 0.5s ease;
 
 				p {
-					color: #fff;
+					color: #13ff29;
 				}
 
 				img {
@@ -1410,11 +1410,11 @@ button {
 				}
 
 				&:hover {
-					background-color: #8C2A2A;
+					/*background-color: #8C2A2A;*/
 
 					p  {
-						color: #FFB100;
-						transition: 1s;
+						color: #FFF;
+						transition: 0.5s;
 					}
 
 				}

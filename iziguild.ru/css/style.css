@@ -1013,7 +1013,7 @@ button {
   width: 1108px;
   margin: 0 auto;
   overflow: hidden;
-  background-color: #1A1A1A;
+  background-color: rgba(26, 26, 26, 0.4);
   border: 1px solid #161616;
   border-radius: 5px;
   height: 24px;
@@ -1205,17 +1205,17 @@ button {
   transition: 0.5s ease;
 }
 .footer .footerContent ul.footerLinks li p {
-  color: #fff;
+  color: #13ff29;
 }
 .footer .footerContent ul.footerLinks li img {
   margin-top: 2.5px;
 }
 .footer .footerContent ul.footerLinks li:hover {
-  background-color: #8C2A2A;
+  /*background-color: #8C2A2A;*/
 }
 .footer .footerContent ul.footerLinks li:hover p {
-  color: #FFB100;
-  transition: 1s;
+  color: #FFF;
+  transition: 0.5s;
 }
 
 /*╨Ф╨╛╨▒╨░╨▓╨╗╨╡╨╜╨╕╨╡ ╨║╨╜╨╛╨┐╨║╨╕ ╤Б╨║╤А╨╛╨╗╨╗╨░*/
