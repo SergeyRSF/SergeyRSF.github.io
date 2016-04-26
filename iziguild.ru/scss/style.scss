@@ -134,7 +134,7 @@ button {
 
 		.maincontent {
 			width: 1110px;
-			height: 2050px;
+			height: auto;
 			background-color: #242424;
 			margin: 0 auto;
 			padding: 20px;
@@ -1143,14 +1143,38 @@ button {
 
 
 						.button_left {
+
+							&:after {
+									background-image: url(../img/button-left-hover_3.png);
+									top: 0;
+									left: 0;
+									opacity: 1;
+							}
+
 							background-image: url(../img/button-left-hover_3.png);
 						}
 
 						.button_middle {
+
+							&:after {
+									background-image: url(../img/button-middle-hover_3.png);
+									top: 0;
+									left: 0;
+									opacity: 1;
+							}
+
 							background-image: url(../img/button-middle-hover_3.png);
 						}
 
 						.button_right {
+
+							&:after {
+									background-image: url(../img/button-right-hover_3.png);
+									top: 0;
+									left: 0;
+									opacity: 1;
+							}
+
 							background-image: url(../img/button-right-hover_3.png);
 						}
 					}
@@ -1180,6 +1204,83 @@ button {
 				}
 
 			}
+
+/* ///////////////////////////////////////////////////////////////Страница заявки. Информация ////////////////////////////////////////////////////////////// */
+
+			.request_box {
+
+				padding: 25px 25px 50px 25px;
+				background-color: #fff;
+
+				h1.info {
+					font-size: 40px;
+					font-weight: bold;
+					margin-bottom: 35px;
+					text-align: center;
+					color: #111213;
+				}
+
+				.bot_line {
+					border-bottom: 1px solid #e5e5e5;
+					margin-bottom: 30px;
+				}
+
+				.info_box {
+					margin-bottom: 40px;
+
+					h2 {
+					margin-bottom: 10px;
+					font-weight: bold;
+					font-size: 20px;
+					}
+
+					ul {
+						padding-left: 28px;
+
+						li {
+							font-size: 14px;
+							color: #525253;
+							line-height: 1.7;
+
+							p {
+								float: left;
+							}
+
+							.left_con {
+
+								padding-top: 1px;
+								float: left;
+
+								img {
+									margin-right: 10px;
+								}
+
+							}
+
+						}
+					}
+				}
+
+				
+
+				label {
+					input[type="checkbox"] {
+						float: left;
+						width: 20px;
+						height: 20px;
+
+					}
+
+					p {
+						float: left;
+						margin-top: 6px;
+						font-size: 14px;
+						color: #525253;
+						cursor: pointer;
+					} 
+				}
+}
+
 
 			.bread_con {
 			width: 1110px;
@@ -1391,7 +1492,7 @@ button {
 			margin: 0 auto;
 			text-align: center;
 			font-size: 16px;
-			width: 335px;
+			width: 491px;
 
 			li {
 				float: left;

@@ -171,11 +171,12 @@ button {
 }
 .content .wrapper .maincontent {
   width: 1110px;
-  height: 2050px;
+  height: auto;
   background-color: #242424;
   margin: 0 auto;
   padding: 20px;
   background: url(../img/con_back.jpg) 40% repeat-y;
+  /* ///////////////////////////////////////////////////////////////╨б╤В╤А╨░╨╜╨╕╤Ж╨░ ╨╖╨░╤П╨▓╨║╨╕. ╨Ш╨╜╤Д╨╛╤А╨╝╨░╤Ж╨╕╤П ////////////////////////////////////////////////////////////// */
 }
 .content .wrapper .maincontent .lcon {
   float: left;
@@ -993,15 +994,86 @@ button {
 .content .wrapper .maincontent .sidebar .button_legion_2:hover .button_left {
   background-image: url(../img/button-left-hover_3.png);
 }
+.content .wrapper .maincontent .sidebar .button_legion_2:hover .button_left:after {
+  background-image: url(../img/button-left-hover_3.png);
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
 .content .wrapper .maincontent .sidebar .button_legion_2:hover .button_middle {
   background-image: url(../img/button-middle-hover_3.png);
+}
+.content .wrapper .maincontent .sidebar .button_legion_2:hover .button_middle:after {
+  background-image: url(../img/button-middle-hover_3.png);
+  top: 0;
+  left: 0;
+  opacity: 1;
 }
 .content .wrapper .maincontent .sidebar .button_legion_2:hover .button_right {
   background-image: url(../img/button-right-hover_3.png);
 }
+.content .wrapper .maincontent .sidebar .button_legion_2:hover .button_right:after {
+  background-image: url(../img/button-right-hover_3.png);
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
 .content .wrapper .maincontent .sidebar .button_legion_2 p {
   margin-top: -20px;
   text-align: center;
+}
+.content .wrapper .maincontent .request_box {
+  padding: 25px 25px 50px 25px;
+  background-color: #fff;
+}
+.content .wrapper .maincontent .request_box h1.info {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 35px;
+  text-align: center;
+  color: #111213;
+}
+.content .wrapper .maincontent .request_box .bot_line {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+}
+.content .wrapper .maincontent .request_box .info_box {
+  margin-bottom: 40px;
+}
+.content .wrapper .maincontent .request_box .info_box h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.content .wrapper .maincontent .request_box .info_box ul {
+  padding-left: 28px;
+}
+.content .wrapper .maincontent .request_box .info_box ul li {
+  font-size: 14px;
+  color: #525253;
+  line-height: 1.7;
+}
+.content .wrapper .maincontent .request_box .info_box ul li p {
+  float: left;
+}
+.content .wrapper .maincontent .request_box .info_box ul li .left_con {
+  padding-top: 1px;
+  float: left;
+}
+.content .wrapper .maincontent .request_box .info_box ul li .left_con img {
+  margin-right: 10px;
+}
+.content .wrapper .maincontent .request_box label input[type="checkbox"] {
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+.content .wrapper .maincontent .request_box label p {
+  float: left;
+  margin-top: 6px;
+  font-size: 14px;
+  color: #525253;
+  cursor: pointer;
 }
 .content .wrapper .maincontent .bread_con {
   width: 1110px;
@@ -1194,7 +1266,7 @@ button {
   margin: 0 auto;
   text-align: center;
   font-size: 16px;
-  width: 335px;
+  width: 491px;
 }
 .footer .footerContent ul.footerLinks li {
   float: left;
