@@ -16,6 +16,7 @@ a {
 	text-decoration: none;
 }
 
+
 a:hover {
 	text-decoration: none;
 	color: #fff;
@@ -23,6 +24,11 @@ a:hover {
 
 button {
 	cursor: pointer;
+}
+
+
+.button_text {
+	height: 0 !important;
 }
 
 .header {
@@ -1115,11 +1121,11 @@ button {
 					.button_light {
 						position: absolute;
 						width: 166px;
-						height: 125px;
-						background-image: url(../img/button-light_3.png);
+						height: 95px;
+						background-image: url(../img/button-light_4.png);
 						float: right;
-						top: -23px;
-						right: 7px;
+						top: -7px;
+						right: 4px;
 					}
 
 					.button_text {
