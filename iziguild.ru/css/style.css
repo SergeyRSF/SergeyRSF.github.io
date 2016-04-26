@@ -112,28 +112,52 @@ button {
   font-size: 16px;
 }
 .header .wrapper .menu ul.hmenu li {
+  				    /*
+  					float: left;
+                      text-align: center;
+                      margin-top: 16px;
+                      height: 35px;
+                      /*-webkit-transition: top 3s ease-out 1.5s;
+                       -moz-transition: top 3s ease-out 1.5s;
+                       -o-transition: top 3s ease-out 1.5s;
+                       transition: top 3s ease-out 1.5s;transition: 1.5s 1.5s ease;*/
+                     /*-webkit-transition: 0.5s ease;
+                     transition: 0.5s ease;
+
+                    .hmenu_p a {
+	                    color: #fff;
+	                    padding: 17px 15px;
+	                    transition: .4s ease;
+                    }
+
+                    a:hover {
+
+                        text-decoration: none;    
+                    }
+
+                    a:hover {
+	                    background-color: #8C2A2A ;
+	                   color: #FFB100 ;
+                    }*/
   float: left;
   text-align: center;
-  margin-top: 16px;
-  height: 35px;
-  /*-webkit-transition: top 3s ease-out 1.5s;
-   -moz-transition: top 3s ease-out 1.5s;
-   -o-transition: top 3s ease-out 1.5s;
-   transition: top 3s ease-out 1.5s;transition: 1.5s 1.5s ease;*/
+  padding: 17px 15px 0px 15px;
+  height: 33px;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
-.header .wrapper .menu ul.hmenu li .hmenu_p a {
+.header .wrapper .menu ul.hmenu li p {
   color: #fff;
-  padding: 17px 15px;
-  transition: .4s ease;
 }
-.header .wrapper .menu ul.hmenu li a:hover {
-  text-decoration: none;
+.header .wrapper .menu ul.hmenu li img {
+  margin-top: 2.5px;
 }
-.header .wrapper .menu ul.hmenu li a:hover {
+.header .wrapper .menu ul.hmenu li:hover {
   background-color: #8C2A2A;
+}
+.header .wrapper .menu ul.hmenu li:hover p {
   color: #FFB100;
+  transition: 1s;
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -353,6 +377,7 @@ button {
   padding: 0px;
   right: -14px;
   outline: 0 !important;
+  text-align: center;
   								/*.button_left {
   									position: absolute;
   									top: 0;
@@ -411,13 +436,16 @@ button {
   margin-top: -8px;
 }
 .content .wrapper .maincontent .lcon .feature .sectionFooter .continue .button_legion .button_text {
-  margin: 0 auto;
   text-align: center;
-  position: absolute;
-  top: 34%;
-  left: 27%;
+  /*top: 34%;
+  left: 27%;*/
   text-shadow: 0 0 10px #e6ff42, 0 0 10px #e6ff42;
   text-transform: uppercase;
+  margin: 0 auto !important;
+  position: absolute;
+  width: 170px;
+  height: 50px;
+  top: 35px;
 }
 .content .wrapper .maincontent .lcon .feature .sectionFooter .continue .button_legion .button_text p {
   font-weight: bold;
@@ -430,6 +458,10 @@ button {
 }
 .content .wrapper .maincontent .lcon .feature .sectionFooter .continue .button_legion:hover .button_right {
   background-image: url(../img/button-right-hover_2.png);
+}
+.content .wrapper .maincontent .lcon .feature .sectionFooter .continue .button_legion p {
+  margin-top: -20px;
+  text-align: center;
 }
 .content .wrapper .maincontent .lcon .feature .pager {
   padding: 2px 0px;
@@ -510,7 +542,7 @@ button {
   width: 0px !important;
 }
 .content .wrapper .maincontent .sidebar .autho .button_vhod .button_text {
-  left: 33% !important;
+  width: 112px !important;
 }
 .content .wrapper .maincontent .sidebar .autho .button_vhod .button_light {
   right: 20px;
@@ -527,6 +559,7 @@ button {
   border: 0px;
   padding: 0px;
   outline: 0 !important;
+  text-align: center;
 }
 .content .wrapper .maincontent .sidebar .autho .button_legion .button_left, .content .wrapper .maincontent .sidebar .autho .button_vhod .button_left {
   width: 56px;
@@ -594,16 +627,18 @@ button {
   margin-top: -8px;
 }
 .content .wrapper .maincontent .sidebar .autho .button_legion .button_text, .content .wrapper .maincontent .sidebar .autho .button_vhod .button_text {
-  margin: 0 auto;
   text-align: center;
-  position: absolute;
-  top: 33%;
-  left: 27%;
   text-shadow: 0 0 10px #e6ff42, 0 0 10px #e6ff42;
   text-transform: uppercase;
+  margin: 0 auto !important;
+  width: 170px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
 }
 .content .wrapper .maincontent .sidebar .autho .button_legion .button_text p, .content .wrapper .maincontent .sidebar .autho .button_vhod .button_text p {
   font-weight: bold;
+  margin: 0 auto !important;
 }
 .content .wrapper .maincontent .sidebar .autho .button_legion:hover .button_left, .content .wrapper .maincontent .sidebar .autho .button_vhod:hover .button_left {
   background-image: url(../img/button-left-hover_2.png);
