@@ -102,7 +102,8 @@ button {
   width: 1150px;
   height: 50px;
   margin: 0 auto;
-  background-color: #7A1717;
+  /*background-color: #7A1717;*/
+  background: url(../img/menu_back.jpg) 50% 0 repeat-y;
 }
 .header .wrapper .menu ul.hmenu {
   width: 905px;
@@ -174,6 +175,7 @@ button {
   background-color: #242424;
   margin: 0 auto;
   padding: 20px;
+  background: url(../img/con_back.jpg) 50% repeat-y;
 }
 .content .wrapper .maincontent .lcon {
   float: left;
@@ -182,10 +184,11 @@ button {
 .content .wrapper .maincontent .lcon .feature {
   width: 820px;
   margin-bottom: 10px;
-  border: 1px solid #1A1A1A;
+  border: 1px solid #626F0B;
   border-radius: 10px;
   padding: 10px;
   color: #BBBBBB;
+  background-color: rgba(32, 32, 32, 0.4);
 }
 .content .wrapper .maincontent .lcon .feature .slider {
   width: 840px;
@@ -209,7 +212,7 @@ button {
   width: 798px;
   height: 17px;
   margin: 0 auto;
-  background-color: #161616;
+  background-color: rgba(32, 32, 32, 0.6);
   padding: 5px 10px;
   font-size: 14px;
   font-weight: bold;
@@ -221,10 +224,13 @@ button {
   float: left;
   margin: 10px 10px 0px -20px;
   text-align: center;
-  width: 50px;
+  width: 48px;
+  border: 1px solid #626F0B;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .content .wrapper .maincontent .lcon .feature .date_block .heading {
-  background-color: #901515;
+  background-color: #626F0B;
   padding: 8px 3px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -317,7 +323,7 @@ button {
   padding: 4px;
   width: 810px;
   height: 23px;
-  background-color: #161616;
+  background-color: rgba(32, 32, 32, 0.6);
   margin: 0 auto;
   position: relative;
 }
@@ -995,13 +1001,13 @@ button {
   margin-top: -20px;
   text-align: center;
 }
-.content .wrapper .bread_con {
-  width: 1150px;
-  height: 46px;
-  background-color: #242424;
+.content .wrapper .maincontent .bread_con {
+  width: 1110px;
+  height: 26px;
   margin: 0 auto;
+  margin-top: 12px;
 }
-.content .wrapper .bread_con .bread {
+.content .wrapper .maincontent .bread_con .bread {
   width: 1108px;
   margin: 0 auto;
   overflow: hidden;
@@ -1010,7 +1016,7 @@ button {
   border-radius: 5px;
   height: 24px;
 }
-.content .wrapper .bread_con .bread ul.breadcrumb {
+.content .wrapper .maincontent .bread_con .bread ul.breadcrumb {
   list-style: none;
   overflow: hidden;
   font: 11px Helvetica, Arial, Sans-Serif;
@@ -1018,11 +1024,11 @@ button {
   height: 100% !important;
   float: left;
 }
-.content .wrapper .bread_con .bread ul.breadcrumb li {
+.content .wrapper .maincontent .bread_con .bread ul.breadcrumb li {
   float: left;
   height: 14px;
 }
-.content .wrapper .bread_con .bread ul.breadcrumb li a {
+.content .wrapper .maincontent .bread_con .bread ul.breadcrumb li a {
   color: white;
   text-decoration: none;
   background: #202020;
@@ -1046,7 +1052,7 @@ button {
   	z-index: 1; 
   }*/
 }
-.content .wrapper .bread_con .bread ul.breadcrumb li a:after {
+.content .wrapper .maincontent .bread_con .bread ul.breadcrumb li a:after {
   content: " ";
   display: block;
   width: 0;
@@ -1061,7 +1067,7 @@ button {
   left: 100%;
   z-index: 2;
 }
-.content .wrapper .bread_con .bread img {
+.content .wrapper .maincontent .bread_con .bread img {
   float: right;
   margin: 4px 6px 0px 0px;
 }

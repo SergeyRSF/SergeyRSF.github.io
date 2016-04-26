@@ -54,7 +54,8 @@ button {
 			width: 1150px;
 			height: 50px;
 			margin: 0 auto;
-			background-color: #7A1717;
+			/*background-color: #7A1717;*/
+			background: url(../img/menu_back.jpg) 50% 0 repeat-y;
 
 			ul.hmenu {
 				width: 905px;
@@ -137,6 +138,7 @@ button {
 			background-color: #242424;
 			margin: 0 auto;
 			padding: 20px;
+			background: url(../img/con_back.jpg) 50% repeat-y;
 
 			.lcon {
 				float: left;
@@ -145,10 +147,11 @@ button {
 				.feature {
 					width: 820px;
 					margin-bottom: 10px;
-					border: 1px solid #1A1A1A;
+					border: 1px solid #626F0B;
 					border-radius: 10px;
 					padding: 10px;
 					color: #BBBBBB;
+					background-color: rgba(32,32,32,0.4);
 
 					.slider {
 						width: 840px;
@@ -177,7 +180,7 @@ button {
 						width: 798px;
 						height: 17px;
 						margin: 0 auto;
-						background-color: #161616;
+						background-color: rgba(32,32,32,0.6);
 						padding: 5px 10px;
 						font-size: 14px;
 						font-weight: bold;
@@ -191,10 +194,13 @@ button {
 						float: left;
 						margin: 10px 10px 0px -20px;
 						text-align: center;
-						width: 50px;
+						width: 48px;
+						border: 1px solid #626F0B;
+						border-top-left-radius: 5px;
+						border-top-right-radius: 5px;
 
 						.heading {
-							background-color: #901515;
+							background-color: #626F0B;
 							padding: 8px 3px;
 							border-top-left-radius: 5px;
 							border-top-right-radius: 5px;
@@ -314,7 +320,8 @@ button {
 						padding: 4px;
 						width: 810px;
 						height: 23px;
-						background-color: #161616;
+						background-color: rgba(32,32,32,0.6);
+
 						margin: 0 auto;
 						position: relative;
 
@@ -1170,13 +1177,12 @@ button {
 				}
 
 			}
-		} /*maincontent*/
 
-		.bread_con {
-			width: 1150px;
-			height: 46px;
-			background-color: #242424;
+			.bread_con {
+			width: 1110px;
+			height: 26px;
 			margin: 0 auto;
+			margin-top: 12px;
 			
 			.bread {
 				width: 1108px;
@@ -1252,6 +1258,10 @@ button {
 				}
 			}
 		}
+
+		} /*maincontent*/
+
+		
 	}
 }	
 
