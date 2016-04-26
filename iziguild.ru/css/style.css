@@ -103,7 +103,7 @@ button {
   height: 50px;
   margin: 0 auto;
   /*background-color: #7A1717;*/
-  background: url(../img/menu_back.jpg) 50% 0 repeat-y;
+  background: url(../img/menu_back_2.jpg) 25% 27% repeat-y;
 }
 .header .wrapper .menu ul.hmenu {
   width: 905px;
@@ -148,17 +148,17 @@ button {
   transition: 0.5s ease;
 }
 .header .wrapper .menu ul.hmenu li p {
-  color: #fff;
+  color: #13ff29;
 }
 .header .wrapper .menu ul.hmenu li img {
   margin-top: 2.5px;
 }
 .header .wrapper .menu ul.hmenu li:hover {
-  background-color: #8C2A2A;
+  /*background-color: #8C2A2A;*/
 }
 .header .wrapper .menu ul.hmenu li:hover p {
-  color: #FFB100;
-  transition: 1s;
+  color: #FFF;
+  transition: 0.5s;
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -175,7 +175,7 @@ button {
   background-color: #242424;
   margin: 0 auto;
   padding: 20px;
-  background: url(../img/con_back.jpg) 50% repeat-y;
+  background: url(../img/con_back.jpg) 40% repeat-y;
 }
 .content .wrapper .maincontent .lcon {
   float: left;
@@ -560,8 +560,9 @@ button {
   width: 250px;
   height: 185px;
   text-align: center;
-  background-color: #202020;
+  /*background-color: #202020;*/
   padding-top: 18px;
+  /*border: 1px solid #626F0B;*/
 }
 .content .wrapper .maincontent .sidebar .autho input {
   width: 200px;
@@ -751,6 +752,7 @@ button {
   margin-bottom: 10px;
   padding: 10px;
   background-color: #202020;
+  border: 1px solid #626F0B;
 }
 .content .wrapper .maincontent .sidebar .side_feature .clas {
   width: 230px;
@@ -1015,6 +1017,7 @@ button {
   border: 1px solid #161616;
   border-radius: 5px;
   height: 24px;
+  border: 1px solid #626F0B;
 }
 .content .wrapper .maincontent .bread_con .bread ul.breadcrumb {
   list-style: none;
@@ -1142,8 +1145,9 @@ button {
 .footer .footerContent {
   width: 1150px;
   height: 50px;
-  background-color: #7A1717;
+  /*background-color: #7A1717;*/
   margin: 0 auto;
+  background: url(../img/menu_back_2.jpg) 25% 27% repeat-y;
   /*.choosers { /*╨╜╨╡╨╜╤Г╨╢╨╜╤Л╨╣ ╨║╨╛╨╜╤В╨╡╨╜╤В*/
   		                                                 /*
   			float: left;
