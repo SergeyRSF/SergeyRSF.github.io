@@ -40,10 +40,10 @@
                     <h1 class="info">Анкета игрока</h1>
                     <div class="bot_line"></div>
                     <div class="steps">
-                        <div class="step active">
+                        <div class="step past">
                             <p class="act_step">Информация об игроке</p>
                         </div> 
-                        <div class="step">
+                        <div class="step active">
                             <p class="act_step">О персонаже</p>
                         </div>
                         <div class="step">
@@ -51,58 +51,50 @@
                         </div>
                     </div>
                     <div class="request_form">
-                        <div class="form_step">
-                            <h2>Личная информация</h2>
-                            <div class="input">
-                                <p class="placeholder">Ваше имя *</p>
-                                <input type="text" placeholder="Имя">
-                            </div>
-                            <div class="input">
-                                <p class="placeholder">Ваш возраст *</p>
-                                <input type="text" placeholder="Возраст">
-                            </div>
-                            <div class="input">
-                                <p class="placeholder">Род занятий</p>
-                                <input type="text" placeholder="Род занятий">
-                            </div>
-                        </div>
-                        <div class="form_step">
-                            <h2>Место жительства</h2>
-                            <div class="input">
-                                <p class="placeholder">Страна *</p>
-                                <input type="text" placeholder="Страна">
-                            </div>
-                            <div class="input">
-                                <p class="placeholder">Город *</p>
-                                <input type="text" placeholder="Город">
-                            </div>
-                            <div class="input">
-                                <p class="placeholder">Часовой пояс *</p>
-                                <input type="text" placeholder="Часовой пояс">
-                            </div>
-                        </div>
                         <div class="form_step none_border">
-                            <h2>Контактная информация</h2>
                             <div class="input">
-                                <p class="placeholder">Skype</p>
-                                <input type="text" placeholder="Skype">
+                                <p class="placeholder">Ник *</p>
+                                <input type="text" placeholder="Ник">
                             </div>
                             <div class="input">
-                                <p class="placeholder">#BattleTag</p>
-                                <input type="text" placeholder="BattleTag">
+                                <p class="placeholder">Класс *</p>
+                                <input type="text" placeholder="Класс">
                             </div>
                             <div class="input">
-                                <p class="placeholder">Электронная почта *</p>
-                                <input type="text" placeholder="E-mail">
-                                <p class="dop">
-                                    На этот адрес будет отправлена специальная ссылка, по которой можно проследить статус рассмотрения заявки.
-                                </p>
+                                <p class="placeholder">Специализация *</p>
+                                <input type="text" placeholder="Спек">
+                            </div>
+                            <div class="input">
+                                <p class="placeholder">Ссылка на armory *</p>
+                                <div class="textarea-box">
+                                    <textarea placeholder="Вставьте ссылку"></textarea>
+                                </div>
+                                <p class="dop">(на момент рассмотрения заявки Вы должны быть в PVE спеке и эквипе)</p>
+                            </div>
+                            <div class="input">
+                                <p class="placeholder">Время потраченное на игру этим персонажем (/played) *</p>
+                                <input type="text" placeholder="/played">
+                            </div>
+                            <div class="input">
+                                <p class="placeholder">Есть ли у Вас другие персонажи, которыми вы умеете играть? *</p>
+                                <label><input type="checkbox"><p>Да</p></label>
+                                <div style="clear:both"></div>
+                                <p class="dop">Имеются ввиду альты максимального лвла с опытом игры и минимальным рейдовым эквипом</p>
                             </div>
                         </div>
                         <div style="clear:both"></div>
                         <div class="box_next">
                             <div class="box_buttons">
-                                <a href="request-char.html">
+                                <a href="request-player.html">
+                                    <button class="button_legion">
+                                        <div class="button_left"></div>
+                                        <div class="button_middle"></div>
+                                        <div class="button_right"></div>
+                                        <div class="button_light"></div>
+                                        <div class="button_text"><p>Назад</p></div>
+                                    </button>
+                                </a>
+                                <a href="request-tehno.html">
                                     <button class="button_legion">
                                         <div class="button_left"></div>
                                         <div class="button_middle"></div>

@@ -40,63 +40,69 @@
                     <h1 class="info">Анкета игрока</h1>
                     <div class="bot_line"></div>
                     <div class="steps">
-                        <div class="step active">
+                        <div class="step past">
                             <p class="act_step">Информация об игроке</p>
                         </div> 
-                        <div class="step">
+                        <div class="step past">
                             <p class="act_step">О персонаже</p>
                         </div>
-                        <div class="step">
+                        <div class="step active">
                             <p class="act_step">Техническая информация</p>
                         </div>
                     </div>
                     <div class="request_form">
                         <div class="form_step">
-                            <h2>Личная информация</h2>
+                            <h2>Конфигурация компьютера</h2>
                             <div class="input">
-                                <p class="placeholder">Ваше имя *</p>
-                                <input type="text" placeholder="Имя">
+                                <p class="placeholder">CPU *</p>
+                                <input type="text" placeholder="CPU">
                             </div>
                             <div class="input">
-                                <p class="placeholder">Ваш возраст *</p>
-                                <input type="text" placeholder="Возраст">
+                                <p class="placeholder">RAM *</p>
+                                <input type="text" placeholder="RAM">
                             </div>
                             <div class="input">
-                                <p class="placeholder">Род занятий</p>
-                                <input type="text" placeholder="Род занятий">
-                            </div>
-                        </div>
-                        <div class="form_step">
-                            <h2>Место жительства</h2>
-                            <div class="input">
-                                <p class="placeholder">Страна *</p>
-                                <input type="text" placeholder="Страна">
+                                <p class="placeholder">Video *</p>
+                                <input type="text" placeholder="Video">
                             </div>
                             <div class="input">
-                                <p class="placeholder">Город *</p>
-                                <input type="text" placeholder="Город">
+                                <p class="placeholder">HDD *</p>
+                                <input type="text" placeholder="HDD">
                             </div>
                             <div class="input">
-                                <p class="placeholder">Часовой пояс *</p>
-                                <input type="text" placeholder="Часовой пояс">
+                                <p class="placeholder">Display resolution *</p>
+                                <input type="text" placeholder="Display resolution">
                             </div>
                         </div>
                         <div class="form_step none_border">
-                            <h2>Контактная информация</h2>
+                            <h2>Характеристики доступа в Интернет</h2>
                             <div class="input">
-                                <p class="placeholder">Skype</p>
-                                <input type="text" placeholder="Skype">
+                                <p class="placeholder">Провайдер *</p>
+                                <input type="text" placeholder="Провайдер">
                             </div>
                             <div class="input">
-                                <p class="placeholder">#BattleTag</p>
-                                <input type="text" placeholder="BattleTag">
+                                <p class="placeholder">Ширина канала *</p>
+                                <input type="text" placeholder="Ширина канала(Mbps)">
                             </div>
                             <div class="input">
-                                <p class="placeholder">Электронная почта *</p>
-                                <input type="text" placeholder="E-mail">
-                                <p class="dop">
-                                    На этот адрес будет отправлена специальная ссылка, по которой можно проследить статус рассмотрения заявки.
-                                </p>
+                                <p class="placeholder">Пинг *</p>
+                                <input type="text" placeholder="Пинг">
+                            </div>
+                            <div class="check_box">
+                                <label><input type="checkbox"><p>Имеется ли альтернативный доступ в Интернет?</p></label>
+                            </div>
+                            <div style="clear:both"></div>
+                            <div class="check_box">
+                                <label><input type="checkbox"><p>Есть ли возможность пользоваться TeamSpeak 3?*</p></label>
+                            </div>
+                            <div style="clear:both"></div>
+                            <div class="check_box">
+                                <label><input type="checkbox"><p>Есть ли у Вас микрофон и возможность разговаривать в рейде?</p></label>
+                            </div>
+                            <div class="input captcha">
+                                <p class="placeholder">Введите цифры *</p>
+                                <div><img src="img/captcha.jpg" style="width=110px;"></div>
+                                <input type="text" class="cap">
                             </div>
                         </div>
                         <div style="clear:both"></div>
@@ -108,7 +114,16 @@
                                         <div class="button_middle"></div>
                                         <div class="button_right"></div>
                                         <div class="button_light"></div>
-                                        <div class="button_text"><p>Далее</p></div>
+                                        <div class="button_text"><p>Назад</p></div>
+                                    </button>
+                                </a>
+                                <a href="">
+                                    <button class="button_legion send">
+                                        <div class="button_left"></div>
+                                        <div class="button_middle"></div>
+                                        <div class="button_right"></div>
+                                        <div class="button_light"></div>
+                                        <div class="button_text"><p>Отправить</p></div>
                                     </button>
                                 </a>
                             </div>
