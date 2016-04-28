@@ -1400,6 +1400,39 @@ button {
   float: right;
   margin: 4px 6px 0px 0px;
 }
+.content .wrapper .maincontent .title_bar {
+  margin-bottom: 10px;
+}
+.content .wrapper .maincontent .title_bar h2 {
+  font-size: 16px;
+  color: #fff;
+}
+.content .wrapper .maincontent .title_bar p {
+  font-size: 11px;
+  margin-top: 2px;
+  color: #BBBBBB;
+}
+.content .wrapper .maincontent .class_container {
+  margin: 0 auto;
+}
+.content .wrapper .maincontent .class_container .class_char {
+  width: 280px;
+  height: 200px;
+  background-color: #dbdbdb;
+  margin: 30px 13px;
+  float: left;
+}
+.content .wrapper .maincontent .class_container .class_char .class_header {
+  width: 265px;
+  height: 56px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+.content .wrapper .maincontent .class_container .class_char .class_header h2 {
+  color: #666;
+  font-weight: 600;
+  padding-top: 10px;
+}
 
 /*.pass {
 	float: left;

@@ -1612,85 +1612,128 @@ button {
 			margin: 0 auto;
 			margin-top: 12px;
 			
-			.bread {
-				width: 1108px;
-				margin: 0 auto;
-				overflow: hidden;
-				background-color: rgba(26,26,26,0.4);
-				border: 1px solid #161616;
-				border-radius: 5px;
-				height: 24px;
-				border: 1px solid #626F0B;
+				.bread {
+					width: 1108px;
+					margin: 0 auto;
+					overflow: hidden;
+					background-color: rgba(26,26,26,0.4);
+					border: 1px solid #161616;
+					border-radius: 5px;
+					height: 24px;
+					border: 1px solid #626F0B;
 
-				ul.breadcrumb { 
-				list-style: none; 
-				overflow: hidden; 
-				font: 11px Helvetica, Arial, Sans-Serif;
-				width: 98%;
-				height: 100% !important;
-				float: left;
-
-					li { 
+						ul.breadcrumb { 
+						list-style: none; 
+						overflow: hidden; 
+						font: 11px Helvetica, Arial, Sans-Serif;
+						width: 98%;
+						height: 100% !important;
 						float: left;
-						height: 14px;
+
+							li { 
+								float: left;
+								height: 14px;
 
 
-						a {
-							color: white;
-							text-decoration: none; 
-							background:  #202020;
-							padding: 5px 10px 5px 9px;
-							position: relative; 
-							display: block;
-							float: left;
+								a {
+									color: white;
+									text-decoration: none; 
+									background:  #202020;
+									padding: 5px 10px 5px 9px;
+									position: relative; 
+									display: block;
+									float: left;
 
 
-							&:after { 
-								content: " "; 
-								display: block; 
-								width: 0; 
-								height: 0;
-								border-top: 13px solid transparent;           /* Go big on the size, and let overflow hide */
-								border-bottom: 13px solid transparent;
-								border-left: 13px solid #202020;
-								position: absolute;
-								top: 40%;
-								margin-top: -10px; 
-								left: 100%;
-								z-index: 2; 
+									&:after { 
+										content: " "; 
+										display: block; 
+										width: 0; 
+										height: 0;
+										border-top: 13px solid transparent;           /* Go big on the size, and let overflow hide */
+										border-bottom: 13px solid transparent;
+										border-left: 13px solid #202020;
+										position: absolute;
+										top: 40%;
+										margin-top: -10px; 
+										left: 100%;
+										z-index: 2; 
+									}
+
+									/*&:before { 
+										content: " "; 
+										display: block; 
+										width: 0; 
+										height: 0;
+										border-top: 50px solid transparent;       
+										border-bottom: 50px solid transparent;
+										border-left: 30px solid white;
+										position: absolute;
+										top: 50%;
+										margin-top: -50px; 
+										margin-left: 1px;
+										left: 100%;
+										z-index: 1; 
+									}*/
+
+								}
 							}
 
-							/*&:before { 
-								content: " "; 
-								display: block; 
-								width: 0; 
-								height: 0;
-								border-top: 50px solid transparent;       
-								border-bottom: 50px solid transparent;
-								border-left: 30px solid white;
-								position: absolute;
-								top: 50%;
-								margin-top: -50px; 
-								margin-left: 1px;
-								left: 100%;
-								z-index: 1; 
-							}*/
+						}
 
+						img {
+							float: right;
+							margin: 4px 6px 0px 0px;
 						}
 					}
-
 				}
 
-				img {
-					float: right;
-					margin: 4px 6px 0px 0px;
+
+			.title_bar {
+				margin-bottom: 10px;
+				
+				h2 {
+					font-size: 16px;
+					color: #fff;
 				}
+
+				p {
+					font-size: 11px;
+					margin-top: 2px;
+					color: #BBBBBB;
+				}
+
 			}
-		}
+
+			.class_container {
+
+				margin: 0 auto;
+
+				.class_char {
+					width: 280px;
+					height: 200px;
+					background-color: #dbdbdb;
+					margin: 30px 13px;
+					float: left;
+
+					.class_header {
+						width: 265px;
+						height: 56px;
+						padding-left: 15px;
+						margin-bottom: 20px;
+
+						h2 {
+							color: #666;
+							font-weight: 600;
+							padding-top: 10px;
+						}
+					}
+				}				
+			}
+
+			
 
 		} /*maincontent*/
-
-		
 	}
 }	
 
