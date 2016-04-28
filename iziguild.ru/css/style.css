@@ -1415,23 +1415,139 @@ button {
 .content .wrapper .maincontent .class_container {
   margin: 0 auto;
 }
-.content .wrapper .maincontent .class_container .class_char {
+.content .wrapper .maincontent .class_container .class_center {
+  margin: 0 auto;
+  width: 918px;
+  height: 260px;
+}
+.content .wrapper .maincontent .class_container .class_center .class_char {
   width: 280px;
   height: 200px;
   background-color: #dbdbdb;
   margin: 30px 13px;
   float: left;
+  border-radius: 10px;
 }
-.content .wrapper .maincontent .class_container .class_char .class_header {
+.content .wrapper .maincontent .class_container .class_center .class_char .class_header {
   width: 265px;
   height: 56px;
   padding-left: 15px;
   margin-bottom: 20px;
 }
-.content .wrapper .maincontent .class_container .class_char .class_header h2 {
+.content .wrapper .maincontent .class_container .class_center .class_char .class_header h2 {
   color: #666;
+  font-size: 21px;
   font-weight: 600;
-  padding-top: 10px;
+  padding-top: 15px;
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .class_header .class_icon {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-size: 100%;
+  margin-top: -78px;
+  margin-left: 160px;
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .class_header .i_priest {
+  background-image: url(../img/i_priest.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .class_header .i_warlock {
+  background-image: url(../img/i_warlock.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .class_header .i_mage {
+  background-image: url(../img/i_mage.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .class_header .i_druid {
+  background-image: url(../img/i_druid.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .class_header .i_warrior {
+  background-image: url(../img/i_warrior.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .class_header .i_deathknight {
+  background-image: url(../img/i_deathknight.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .class_header .i_hunter {
+  background-image: url(../img/i_hunter.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .class_header .i_paladin {
+  background-image: url(../img/i_paladin.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .class_header .i_shaman {
+  background-image: url(../img/i_shaman.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .class_header .i_rogue {
+  background-image: url(../img/i_rogue.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .class_header .i_monk {
+  background-image: url(../img/i_monk.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .s_priest {
+  background-image: url(../img/back_priest.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .s_warlock {
+  background-image: url(../img/back_warlock.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .s_mage {
+  background-image: url(../img/back_mage.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .s_druid {
+  background-image: url(../img/back_druid.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .s_warrior {
+  background-image: url(../img/back_warrior.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .s_deathknight {
+  background-image: url(../img/back_dk.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .s_hunter {
+  background-image: url(../img/back_hunter.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .s_paladin {
+  background-image: url(../img/back_paladin.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .s_shaman {
+  background-image: url(../img/back_shaman.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .s_rogue {
+  background-image: url(../img/back_rogue.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .s_monk {
+  background-image: url(../img/back_monk.png);
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .nickname {
+  width: 39%;
+  padding: 0px 15px;
+  float: left;
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .nickname p {
+  color: #666;
+  font-size: 14px;
+  line-height: 28px;
+}
+.content .wrapper .maincontent .class_container .class_center .class_char .nickname p:hover {
+  text-decoration: underline;
+}
+.content .wrapper .maincontent .class_container .class_center .stream_row .stream {
+  width: 280px;
+  float: left;
+  display: inline-block;
+  margin: 30px 15px 30px 15px;
+}
+.content .wrapper .maincontent .class_container .class_center .stream_row .stream:last-child {
+  margin-right: 0px;
+}
+.content .wrapper .maincontent .class_container .class_center .stream_row .stream iframe {
+  width: 280px;
+  height: 160px;
+}
+.content .wrapper .maincontent .class_container .class_center .stream_row .stream a {
+  text-decoration: none;
+}
+.content .wrapper .maincontent .class_container .class_center .stream_row .stream a p.stream_p {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 4px;
+  text-align: center;
 }
 
 /*.pass {

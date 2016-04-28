@@ -1709,26 +1709,182 @@ button {
 
 				margin: 0 auto;
 
-				.class_char {
+				.class_center {
+					margin: 0 auto;
+					width: 918px;
+					height: 260px;
+
+					.class_char {
 					width: 280px;
 					height: 200px;
 					background-color: #dbdbdb;
 					margin: 30px 13px;
 					float: left;
+					border-radius: 10px;
 
-					.class_header {
-						width: 265px;
-						height: 56px;
-						padding-left: 15px;
-						margin-bottom: 20px;
+						.class_header {
+							width: 265px;
+							height: 56px;
+							padding-left: 15px;
+							margin-bottom: 20px;
 
-						h2 {
-							color: #666;
-							font-weight: 600;
-							padding-top: 10px;
+							h2 {
+								color: #666;
+								font-size: 21px;
+								font-weight: 600;
+								padding-top: 15px;
+							}
+
+							.class_icon {
+								position: absolute;
+								width: 120px;
+								height: 120px;
+								background-size: 100%;
+								margin-top: -78px;
+								margin-left: 160px;
+							}
+
+							.i_priest {
+								background-image: url(../img/i_priest.png);
+							}
+
+							.i_warlock {
+								background-image: url(../img/i_warlock.png);
+							}
+
+							.i_mage {
+								background-image: url(../img/i_mage.png);
+							}
+
+							.i_druid {
+								background-image: url(../img/i_druid.png);
+							}
+
+							.i_warrior {
+								background-image: url(../img/i_warrior.png);
+							}
+
+							.i_deathknight {
+								background-image: url(../img/i_deathknight.png);
+							}
+
+							.i_hunter {
+								background-image: url(../img/i_hunter.png);
+							}
+
+							.i_paladin {
+								background-image: url(../img/i_paladin.png);
+							}
+
+							.i_shaman {
+								background-image: url(../img/i_shaman.png);
+							}
+
+							.i_rogue {
+								background-image: url(../img/i_rogue.png);
+							}
+
+							.i_monk {
+								background-image: url(../img/i_monk.png);
+							}
+
+						}
+
+						.s_priest {
+							background-image: url(../img/back_priest.png);
+						}
+
+						.s_warlock {
+							background-image: url(../img/back_warlock.png);
+						}
+
+						.s_mage {
+							background-image: url(../img/back_mage.png);
+						}
+
+						.s_druid {
+							background-image: url(../img/back_druid.png);
+						}
+
+						.s_warrior {
+							background-image: url(../img/back_warrior.png);
+						}
+
+						.s_deathknight {
+							background-image: url(../img/back_dk.png);
+						}
+
+						.s_hunter {
+							background-image: url(../img/back_hunter.png);
+						}
+
+						.s_paladin {
+							background-image: url(../img/back_paladin.png);
+						}
+
+						.s_shaman {
+							background-image: url(../img/back_shaman.png);
+						}
+
+						.s_rogue {
+							background-image: url(../img/back_rogue.png);
+						}
+
+						.s_monk {
+							background-image: url(../img/back_monk.png);
+						}
+
+						.nickname {
+							width: 39%;
+							padding: 0px 15px;
+							float: left;
+
+							p {
+								color: #666;
+								font-size: 14px;
+								line-height: 28px;
+
+								&:hover {
+									text-decoration: underline;
+								}
+							}
 						}
 					}
-				}				
+
+					.stream_row {
+
+						.stream {
+
+							width: 280px;
+							float: left;
+							display: inline-block;
+							margin: 30px 15px 30px 15px;
+
+							&:last-child {
+								margin-right: 0px;
+							}
+
+							iframe {
+								width: 280px;
+								height: 160px;
+							}
+
+							a {
+								text-decoration: none;
+
+								p.stream_p {
+									font-size: 16px;
+									color: #fff;
+									margin-top: 4px;
+									text-align: center;
+								}
+							}
+
+						}
+						
+					}
+						
+				}					
 			}
 
 			
