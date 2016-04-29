@@ -202,8 +202,8 @@ button {
 						text-align: center;
 						width: 48px;
 						border: 1px solid #626F0B;
-						border-top-left-radius: 5px;
-						border-top-right-radius: 5px;
+						border-top-left-radius: 7px;
+						border-top-right-radius: 7px;
 
 						.heading {
 							background-color: #626F0B;
@@ -1617,7 +1617,6 @@ button {
 					margin: 0 auto;
 					overflow: hidden;
 					background-color: rgba(26,26,26,0.4);
-					border: 1px solid #161616;
 					border-radius: 5px;
 					height: 24px;
 					border: 1px solid #626F0B;
@@ -1633,24 +1632,26 @@ button {
 							li { 
 								float: left;
 								height: 14px;
+								position: relative;
 
 
 								a {
-									color: white;
+									color: #13ff29;
 									text-decoration: none; 
 									background:  #202020;
-									padding: 5px 10px 5px 9px;
+									padding: 5.5px 10px 6px 19px;
 									position: relative; 
 									display: block;
 									float: left;
+									margin-bottom: -1px;
+    								border-bottom: 1px none rgb(22, 22, 22);
 
-
-									&:after { 
-										content: " "; 
+									/*&:after { 
+										content: ""; 
 										display: block; 
 										width: 0; 
 										height: 0;
-										border-top: 13px solid transparent;           /* Go big on the size, and let overflow hide */
+										border-top: 13px solid transparent;
 										border-bottom: 13px solid transparent;
 										border-left: 13px solid #202020;
 										position: absolute;
@@ -1658,7 +1659,7 @@ button {
 										margin-top: -10px; 
 										left: 100%;
 										z-index: 2; 
-									}
+									}*/
 
 									/*&:before { 
 										content: " "; 
@@ -1677,7 +1678,66 @@ button {
 									}*/
 
 								}
+
+								span.bread_span {
+									border: 12px solid transparent;
+								    border-right: 1px none black;
+								    border-left-color: rgb(98, 111, 11);
+								    -moz-border-right-colors: rgb(22, 22, 22);
+								    display: block;
+								    position: absolute;
+								    right: -12px;
+								    top: 0px;
+								    z-index: 50;
+								    width: 0px;
+								    height: 0px;
+
+								    span {
+								    	border: 12px solid transparent;
+									    border-right: 1px none black;
+									    border-left-color: rgb(32, 32, 32);
+									    -moz-border-right-colors: rgb(22, 22, 22);
+									    display: block;
+									    position: absolute;
+									    left: -13px;
+									    top: -12px;
+									    z-index: 51;
+									    width: 0px;
+									    height: 0px;
+									    overflow: hidden;
+
+
+								    }
+								}
+
+								.li_first {
+									padding-left: 10px;
+								}
+
+								.li_active {
+									
+									color: #fff;
+								}
+
+								&:hover {
+
+									a {
+										background-color: #1B1B1B;
+										color: #fff;
+
+									}
+									
+									.bread_span {
+										
+										span {
+											border-left-color: rgb(27, 27, 27);
+										}
+									}
+								}
+
 							}
+
+							
 
 						}
 
@@ -1861,6 +1921,7 @@ button {
 							margin: 30px 15px 30px 15px;
 
 							&:last-child {
+								
 								margin-right: 0px;
 							}
 
@@ -1880,10 +1941,18 @@ button {
 								}
 							}
 
+							&:first-child {
+								margin-left: 0px;
+							}
+
 						}
-						
+
 					}
 						
+				}
+
+				.c_streams {
+					width: 901px;
 				}					
 			}
 

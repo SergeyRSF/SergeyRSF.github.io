@@ -231,8 +231,8 @@ button {
   text-align: center;
   width: 48px;
   border: 1px solid #626F0B;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 .content .wrapper .maincontent .lcon .feature .date_block .heading {
   background-color: #626F0B;
@@ -1340,7 +1340,6 @@ button {
   margin: 0 auto;
   overflow: hidden;
   background-color: rgba(26, 26, 26, 0.4);
-  border: 1px solid #161616;
   border-radius: 5px;
   height: 24px;
   border: 1px solid #626F0B;
@@ -1356,15 +1355,32 @@ button {
 .content .wrapper .maincontent .bread_con .bread ul.breadcrumb li {
   float: left;
   height: 14px;
+  position: relative;
 }
 .content .wrapper .maincontent .bread_con .bread ul.breadcrumb li a {
-  color: white;
+  color: #13ff29;
   text-decoration: none;
   background: #202020;
-  padding: 5px 10px 5px 9px;
+  padding: 5.5px 10px 6px 19px;
   position: relative;
   display: block;
   float: left;
+  margin-bottom: -1px;
+  border-bottom: 1px none #161616;
+  /*&:after { 
+  	content: ""; 
+  	display: block; 
+  	width: 0; 
+  	height: 0;
+  	border-top: 13px solid transparent;
+  	border-bottom: 13px solid transparent;
+  	border-left: 13px solid #202020;
+  	position: absolute;
+  	top: 40%;
+  	margin-top: -10px; 
+  	left: 100%;
+  	z-index: 2; 
+  }*/
   /*&:before { 
   	content: " "; 
   	display: block; 
@@ -1381,20 +1397,45 @@ button {
   	z-index: 1; 
   }*/
 }
-.content .wrapper .maincontent .bread_con .bread ul.breadcrumb li a:after {
-  content: " ";
+.content .wrapper .maincontent .bread_con .bread ul.breadcrumb li span.bread_span {
+  border: 12px solid transparent;
+  border-right: 1px none black;
+  border-left-color: #626f0b;
+  -moz-border-right-colors: #161616;
   display: block;
-  width: 0;
-  height: 0;
-  border-top: 13px solid transparent;
-  /* Go big on the size, and let overflow hide */
-  border-bottom: 13px solid transparent;
-  border-left: 13px solid #202020;
   position: absolute;
-  top: 40%;
-  margin-top: -10px;
-  left: 100%;
-  z-index: 2;
+  right: -12px;
+  top: 0px;
+  z-index: 50;
+  width: 0px;
+  height: 0px;
+}
+.content .wrapper .maincontent .bread_con .bread ul.breadcrumb li span.bread_span span {
+  border: 12px solid transparent;
+  border-right: 1px none black;
+  border-left-color: #202020;
+  -moz-border-right-colors: #161616;
+  display: block;
+  position: absolute;
+  left: -13px;
+  top: -12px;
+  z-index: 51;
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+}
+.content .wrapper .maincontent .bread_con .bread ul.breadcrumb li .li_first {
+  padding-left: 10px;
+}
+.content .wrapper .maincontent .bread_con .bread ul.breadcrumb li .li_active {
+  color: #fff;
+}
+.content .wrapper .maincontent .bread_con .bread ul.breadcrumb li:hover a {
+  background-color: #1B1B1B;
+  color: #fff;
+}
+.content .wrapper .maincontent .bread_con .bread ul.breadcrumb li:hover .bread_span span {
+  border-left-color: #1b1b1b;
 }
 .content .wrapper .maincontent .bread_con .bread img {
   float: right;
@@ -1548,6 +1589,12 @@ button {
   color: #fff;
   margin-top: 4px;
   text-align: center;
+}
+.content .wrapper .maincontent .class_container .class_center .stream_row .stream:first-child {
+  margin-left: 0px;
+}
+.content .wrapper .maincontent .class_container .c_streams {
+  width: 901px;
 }
 
 /*.pass {
