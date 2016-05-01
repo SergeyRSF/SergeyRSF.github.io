@@ -1273,7 +1273,10 @@ button {
 					}
 				}
 
-				input[type="checkbox"] {
+
+				label {
+
+					input[type="checkbox"] {
 						float: left;
 						width: 20px;
 						height: 20px;
@@ -1283,11 +1286,14 @@ button {
 
 						&:checked {
 							background-image: url(../img/check.jpg);
+
+							.box_buttons {
+								display: none;
+							}
+
 						}
 
-				}
-
-				label {
+					}
 
 					p {
 						float: left;

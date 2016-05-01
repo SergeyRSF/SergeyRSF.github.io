@@ -1072,7 +1072,7 @@ button {
 .content .wrapper .maincontent .request_box .info_box ul li .left_con img {
   margin-right: 10px;
 }
-.content .wrapper .maincontent .request_box input[type="checkbox"] {
+.content .wrapper .maincontent .request_box label input[type="checkbox"] {
   float: left;
   width: 20px;
   height: 20px;
@@ -1080,8 +1080,11 @@ button {
   background-size: 100%;
   background-color: none;
 }
-.content .wrapper .maincontent .request_box input[type="checkbox"]:checked {
+.content .wrapper .maincontent .request_box label input[type="checkbox"]:checked {
   background-image: url(../img/check.jpg);
+}
+.content .wrapper .maincontent .request_box label input[type="checkbox"]:checked .box_buttons {
+  display: none;
 }
 .content .wrapper .maincontent .request_box label p {
   float: left;
