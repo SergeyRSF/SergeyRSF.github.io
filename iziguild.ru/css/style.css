@@ -952,6 +952,14 @@ button {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+.content .wrapper .maincontent .sidebar .button_legion_2 .button_left:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/button-left-hover_3.png);
+  opacity: 1;
+}
 .content .wrapper .maincontent .sidebar .button_legion_2 .button_middle {
   width: 24px;
   height: 90px;
@@ -963,6 +971,14 @@ button {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+.content .wrapper .maincontent .sidebar .button_legion_2 .button_middle:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/button-middle-hover_3.png);
+  opacity: 0;
+}
 .content .wrapper .maincontent .sidebar .button_legion_2 .button_right {
   width: 113px;
   height: 90px;
@@ -972,6 +988,14 @@ button {
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+}
+.content .wrapper .maincontent .sidebar .button_legion_2 .button_right:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/button-right-hover_3.png);
+  opacity: 0;
 }
 .content .wrapper .maincontent .sidebar .button_legion_2 .button_light {
   position: absolute;
