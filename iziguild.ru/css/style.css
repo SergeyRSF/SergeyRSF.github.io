@@ -90,7 +90,7 @@ button {
 }
 .header .wrapper .logo {
   margin: 0 auto;
-  height: 150px;
+  height: 300px;
   /*╨Ф╨╛╨▒╨░╨▓╨╗╨╡╨╜╨╕╨╡ ╨╜╨╛╨▓╨╛╨│╨╛ ╨╗╨╛╨│╨╛╤В╨╕╨┐╨░*/
 }
 .header .wrapper .logo .o_logo {
@@ -99,7 +99,7 @@ button {
   margin: 0 auto;
 }
 .header .wrapper .logo img {
-  height: 80px;
+  /*height: 80px;*/
   margin: 0 auto !important;
 }
 .header .wrapper .menu {
