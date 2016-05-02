@@ -90,12 +90,13 @@ button {
 }
 .header .wrapper .logo {
   margin: 0 auto;
-  height: 300px;
+  height: 170px;
+  padding-top: 20px;
   /*╨Ф╨╛╨▒╨░╨▓╨╗╨╡╨╜╨╕╨╡ ╨╜╨╛╨▓╨╛╨│╨╛ ╨╗╨╛╨│╨╛╤В╨╕╨┐╨░*/
 }
 .header .wrapper .logo .o_logo {
-  width: 304px;
-  padding-top: 35px;
+  width: 430px;
+  /*padding-top: 35px;*/
   margin: 0 auto;
 }
 .header .wrapper .logo img {
