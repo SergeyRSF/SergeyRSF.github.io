@@ -417,6 +417,14 @@ button {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+.content .wrapper .maincontent .lcon .feature .sectionFooter .continue .button_legion .button_left:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/button-left-hover_2.png);
+  opacity: 0;
+}
 .content .wrapper .maincontent .lcon .feature .sectionFooter .continue .button_legion .button_middle {
   width: 57px;
   height: 45px;
@@ -428,6 +436,14 @@ button {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+.content .wrapper .maincontent .lcon .feature .sectionFooter .continue .button_legion .button_middle:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/button-middle-hover_2.png);
+  opacity: 0;
+}
 .content .wrapper .maincontent .lcon .feature .sectionFooter .continue .button_legion .button_right {
   width: 56px;
   height: 45px;
@@ -437,6 +453,14 @@ button {
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+}
+.content .wrapper .maincontent .lcon .feature .sectionFooter .continue .button_legion .button_right:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/button-right-hover_2.png);
+  opacity: 0;
 }
 .content .wrapper .maincontent .lcon .feature .sectionFooter .continue .button_legion .button_light {
   position: absolute;
@@ -465,11 +489,29 @@ button {
 .content .wrapper .maincontent .lcon .feature .sectionFooter .continue .button_legion:hover .button_left {
   background-image: url(../img/button-left-hover_2.png);
 }
+.content .wrapper .maincontent .lcon .feature .sectionFooter .continue .button_legion:hover .button_left:after {
+  background-image: url(../img/button-left-hover_2.png);
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
 .content .wrapper .maincontent .lcon .feature .sectionFooter .continue .button_legion:hover .button_middle {
   background-image: url(../img/button-middle-hover_2.png);
 }
+.content .wrapper .maincontent .lcon .feature .sectionFooter .continue .button_legion:hover .button_middle:after {
+  background-image: url(../img/button-middle-hover_2.png);
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
 .content .wrapper .maincontent .lcon .feature .sectionFooter .continue .button_legion:hover .button_right {
   background-image: url(../img/button-right-hover_2.png);
+}
+.content .wrapper .maincontent .lcon .feature .sectionFooter .continue .button_legion:hover .button_right:after {
+  background-image: url(../img/button-right-hover_2.png);
+  top: 0;
+  left: 0;
+  opacity: 1;
 }
 .content .wrapper .maincontent .lcon .feature .sectionFooter .continue .button_legion p {
   margin-top: -20px;

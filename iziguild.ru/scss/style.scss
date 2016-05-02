@@ -362,6 +362,15 @@ button {
 									-moz-transition: 0.5s;
 									-o-transition: 0.5s;
 									transition: 0.5s;
+
+									&:after {
+										content: "";
+										position: absolute;
+										top: 0;
+										left: 0;
+										background-image: url(../img/button-left-hover_2.png);
+										opacity: 0;
+									}
 								}
 
 								.button_middle {
@@ -374,6 +383,15 @@ button {
 									-moz-transition: 0.5s;
 									-o-transition: 0.5s;
 									transition: 0.5s;
+
+									&:after {
+										content: "";
+										position: absolute;
+										top: 0;
+										left: 0;
+										background-image: url(../img/button-middle-hover_2.png);
+										opacity: 0;
+									}
 								}
 
 								.button_right {
@@ -385,6 +403,15 @@ button {
 									-moz-transition: 0.5s;
 									-o-transition: 0.5s;
 									transition: 0.5s;
+
+									&:after {
+										content: "";
+										position: absolute;
+										top: 0;
+										left: 0;
+										background-image: url(../img/button-right-hover_2.png);
+										opacity: 0;
+									}
 								}
 
 								.button_light {
@@ -419,14 +446,38 @@ button {
 
 
 									.button_left {
+
+										&:after {
+											background-image: url(../img/button-left-hover_2.png);
+											top: 0;
+											left: 0;
+											opacity: 1;
+										}
+
 										background-image: url(../img/button-left-hover_2.png);
 									}
 
 									.button_middle {
+
+										&:after {
+											background-image: url(../img/button-middle-hover_2.png);
+											top: 0;
+											left: 0;
+											opacity: 1;
+										}
+
 										background-image: url(../img/button-middle-hover_2.png);
 									}
 
 									.button_right {
+
+										&:after {
+											background-image: url(../img/button-right-hover_2.png);
+											top: 0;
+											left: 0;
+											opacity: 1;
+										}
+
 										background-image: url(../img/button-right-hover_2.png);
 									}
 								}
@@ -1555,9 +1606,9 @@ button {
 								background-repeat: repeat-x;
 								float: left;
 								-webkit-transition: 0.5s;
-							-moz-transition: 0.5s;
-							-o-transition: 0.5s;
-							transition: 0.5s;
+								-moz-transition: 0.5s;
+								-o-transition: 0.5s;
+								transition: 0.5s;
 
 								&:after {
 									content: "";
