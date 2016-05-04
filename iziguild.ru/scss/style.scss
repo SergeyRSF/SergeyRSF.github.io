@@ -145,6 +145,7 @@ button {
 			margin: 0 auto;
 			padding: 20px;
 			background: url(../img/con_back.jpg) 40% repeat-y;
+			display: table;
 
 			.lcon {
 				float: left;
@@ -720,8 +721,7 @@ button {
 						}
 
 						li.commentary {
-
-							height: 200px;
+							display: table;
 
 							.user_bar {
 								float: left;
@@ -2979,10 +2979,6 @@ button {
 			}*/
 
 		} /*maincontent*/
-
-		.nmc {
-			height: 1800px;
-		}
 	}
 }	
 

@@ -180,6 +180,7 @@ button {
   margin: 0 auto;
   padding: 20px;
   background: url(../img/con_back.jpg) 40% repeat-y;
+  display: table;
   /* ///////////////////////////////////////////////////////////////╨б╤В╤А╨░╨╜╨╕╤Ж╨░ ╨╖╨░╤П╨▓╨║╨╕. ╨Ш╨╜╤Д╨╛╤А╨╝╨░╤Ж╨╕╤П ////////////////////////////////////////////////////////////// */
   			/*.news_content {
   
@@ -1121,7 +1122,7 @@ button {
   color: #fff;
 }
 .content .wrapper .maincontent .lcon .news_wrapper ul.news_listing li.commentary {
-  height: 200px;
+  display: table;
 }
 .content .wrapper .maincontent .lcon .news_wrapper ul.news_listing li.commentary .user_bar {
   float: left;
@@ -2497,9 +2498,6 @@ button {
 }
 .content .wrapper .maincontent .video_content .iframe_row iframe:last-child {
   float: right;
-}
-.content .wrapper .nmc {
-  height: 1800px;
 }
 
 /*.pass {
