@@ -1123,6 +1123,7 @@ button {
 }
 .content .wrapper .maincontent .lcon .news_wrapper ul.news_listing li.commentary {
   display: table;
+  margin-bottom: 15px;
 }
 .content .wrapper .maincontent .lcon .news_wrapper ul.news_listing li.commentary .user_bar {
   float: left;
