@@ -4,11 +4,11 @@
 body {
 	/*Добавление бека*/
 	/*background: url(../img/logo_portal_2.png) no-repeat;*/
-	background-attachment: fixed;
+	/*background-attachment: fixed;
 	-moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
-    background-size: 100%;
+    background-size: 100%;*/
 	font: normal 12px Arial, Verdana, sans-serif;
 	position: relative;
 	z-index: 10;
@@ -21,7 +21,7 @@ body {
     width: 100.2%;
     height: 100%;
 	background-image: url(../img/logo_portal_2.png);
-	background-position: center center;
+	/*background-position: center center;*/
     background-size: cover;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
