@@ -57,10 +57,10 @@ body {
   /*╨Ф╨╛╨▒╨░╨▓╨╗╨╡╨╜╨╕╨╡ ╨▒╨╡╨║╨░*/
   background: url(../img/logo_portal_2.png) no-repeat;
   background-attachment: fixed;
-  -moz-background-size: 120%;
-  -webkit-background-size: 120%;
-  -o-background-size: 120%;
-  background-size: 120%;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   font: normal 12px Arial, Verdana, sans-serif;
 }
 
