@@ -10,6 +10,23 @@ body {
     -o-background-size: 100%;
     background-size: 100%;
 	font: normal 12px Arial, Verdana, sans-serif;
+	position: relative;
+	z-index: 10;
+}
+
+.background {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	background-image: url(../img/logo_portal_2.png);
+	background-position: center center;
+    background-size: cover;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 1;
+    background-size: 120%;
 }
 
 a {
@@ -33,6 +50,8 @@ button {
 
 .header {
 	width: 100%;
+	position: relative;
+	z-index: 10000;
 
 	.wrapper {
 		margin: 0 auto;
@@ -136,6 +155,8 @@ button {
 .content {
 	width: 100%;
 	height: 100%;
+	position: relative;
+	z-index: 10000;
 
 	.wrapper {
 
@@ -3059,6 +3080,8 @@ button {
 .footer {
 	width: 100%;
 	height: 50px;
+	position: relative;
+	z-index: 10000;
 
 	.footerContent {
 		width: 1150px;
