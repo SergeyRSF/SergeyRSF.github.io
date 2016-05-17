@@ -2647,6 +2647,7 @@ button {
 }
 .footer .footerContent ul.footerLinks li:hover {
   /*background-color: #8C2A2A;*/
+  background: rgba(19, 255, 41, 0.2);
 }
 .footer .footerContent ul.footerLinks li:hover p {
   color: #FFF;
