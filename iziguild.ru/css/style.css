@@ -160,6 +160,7 @@ button {
 }
 .header .wrapper .menu ul.hmenu li:hover {
   /*background-color: #8C2A2A;*/
+  background: rgba(19, 255, 41, 0.1);
 }
 .header .wrapper .menu ul.hmenu li:hover p {
   color: #FFF;
@@ -1731,14 +1732,16 @@ button {
 }
 .content .wrapper .maincontent .request_box {
   padding: 25px 25px 50px 25px;
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background: none;
 }
 .content .wrapper .maincontent .request_box h1.info {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 35px;
   text-align: center;
-  color: #111213;
+  /*color: #111213;*/
+  color: #fff;
 }
 .content .wrapper .maincontent .request_box .bot_line {
   border-bottom: 1px solid #e5e5e5;
@@ -1751,13 +1754,15 @@ button {
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 20px;
+  color: #fff;
 }
 .content .wrapper .maincontent .request_box .info_box ul {
   padding-left: 28px;
 }
 .content .wrapper .maincontent .request_box .info_box ul li {
   font-size: 14px;
-  color: #525253;
+  /*color: #525253;*/
+  color: #ececec;
   line-height: 1.7;
 }
 .content .wrapper .maincontent .request_box .info_box ul li p {
@@ -1782,8 +1787,9 @@ button {
   float: left;
   margin-top: 6px;
   font-size: 14px;
-  color: #525253;
+  /*color: #525253;*/
   cursor: pointer;
+  color: #ececec;
 }
 .content .wrapper .maincontent .request_box .place:checked ~ .for_check .unchecked {
   display: none;
@@ -2133,7 +2139,8 @@ button {
 .content .wrapper .maincontent .request_box .request_form .form_step h2 {
   font-size: 24px;
   margin-bottom: 20px;
-  color: #333;
+  /*color: #333;*/
+  color: #fff;
   font-weight: bold;
 }
 .content .wrapper .maincontent .request_box .request_form .form_step .input {
@@ -2142,6 +2149,7 @@ button {
 .content .wrapper .maincontent .request_box .request_form .form_step .input p.placeholder {
   font-size: 16px;
   margin-bottom: 10px;
+  color: #ececec;
 }
 .content .wrapper .maincontent .request_box .request_form .form_step .input input {
   width: 340px;
@@ -2187,7 +2195,8 @@ button {
   margin-top: 2px;
   margin-left: 4px;
   font-size: 14px;
-  color: #525253;
+  /*color: #525253;*/
+  color: #ececec;
   cursor: pointer;
 }
 .content .wrapper .maincontent .request_box .request_form .form_step .check_box {
