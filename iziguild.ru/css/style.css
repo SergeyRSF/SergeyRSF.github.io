@@ -110,11 +110,10 @@ button {
 .header .wrapper .logo {
   margin: 0 auto;
   height: 170px;
-  padding-top: 20px;
   /*╨Ф╨╛╨▒╨░╨▓╨╗╨╡╨╜╨╕╨╡ ╨╜╨╛╨▓╨╛╨│╨╛ ╨╗╨╛╨│╨╛╤В╨╕╨┐╨░*/
 }
 .header .wrapper .logo .o_logo {
-  width: 412px;
+  width: 305px;
   /*padding-top: 35px;*/
   margin: 0 auto;
 }
