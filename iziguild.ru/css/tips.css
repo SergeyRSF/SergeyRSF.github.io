@@ -10,6 +10,7 @@
 			padding: 5px 5px 7px 5px;
 			margin-left: 13px;
 			text-align: center;
+			z-index: 1000000;
 		}
 
 			#tooltip:after
@@ -25,4 +26,5 @@
 				left: 50%;
 				bottom: -11px;
 				margin-left: -8px;
+				z-index: 1000000;
 			}
