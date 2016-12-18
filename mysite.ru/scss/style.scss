@@ -60,7 +60,7 @@ li {
 				font-weight: bold;
 
 				&:hover {
-					text-shadow: 2px 3px 2px #000;
+					text-shadow: 2px 3px 2px rgb(136, 136, 136);
 				}
 			}
 		}
@@ -80,6 +80,15 @@ li {
 }
 
 .content {
+
+	.page-content {
+		position: relative;
+		z-index: 10000;
+
+		.page-content__news {
+			background-color: #fff;
+		}
+	}
 	
 }
 

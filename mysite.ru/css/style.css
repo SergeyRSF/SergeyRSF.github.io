@@ -43,7 +43,7 @@ li {
         font-size: 14px;
         font-weight: bold; }
         .header .header__menu ul a:hover {
-          text-shadow: 2px 3px 2px #000; }
+          text-shadow: 2px 3px 2px #888888; }
   .header .header__search {
     float: right;
     padding: 30px 15px 0px 0px; }
@@ -52,6 +52,12 @@ li {
       border: 0px;
       padding-left: 7px;
       height: 20px; }
+
+.content .page-content {
+  position: relative;
+  z-index: 10000; }
+  .content .page-content .page-content__news {
+    background-color: #fff; }
 
 .background {
   position: fixed;
