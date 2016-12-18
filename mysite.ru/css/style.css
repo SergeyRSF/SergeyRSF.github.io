@@ -58,7 +58,13 @@ li {
   z-index: 10000; }
   .content .page-content .page-content__news {
     background-color: #fff;
-    padding-left: 30px; }
+    padding-left: 30px;
+    padding-top: 30px; }
+    .content .page-content .page-content__news h2 {
+      font-size: 20px;
+      color: #000;
+      text-transform: uppercase;
+      text-align: center; }
 
 .background {
   position: fixed;
