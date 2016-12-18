@@ -57,7 +57,8 @@ li {
   position: relative;
   z-index: 10000; }
   .content .page-content .page-content__news {
-    background-color: #fff; }
+    background-color: #fff;
+    padding-left: 30px; }
 
 .background {
   position: fixed;
